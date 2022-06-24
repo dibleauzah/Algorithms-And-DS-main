@@ -102,23 +102,51 @@
 
 //!-------Challenge-Number Divider--------//
 
-function waveSort(arr){
-	arr = arr.sort(function(a, b){
-		return a - b;
-	});
-	for (var i = 1; i < arr.length; i += 2){
-		if (arr[i - 1] < arr[i]){
-			var temp = arr[i];
-			arr[i] = arr[i - 1];
-			arr[i - 1] = temp;
-		}
-		if (i + 1 < arr.length && arr[i + 1] < arr[i]){
-			temp = arr[i];
-			arr[i] = arr[i + 1];
-			arr[i + 1] = temp;
-		}
-	}
-	return arr;
-}
-var waved = waveSort([1, 2, 3, 5, 6, 7]);
-console.log(JSON.stringify(waved));
+// function waveSort(arr){
+// 	arr = arr.sort(function(a, b){
+// 		return a - b;
+// 	});
+// 	for (var i = 1; i < arr.length; i += 2){
+// 		if (arr[i - 1] < arr[i]){
+// 			var temp = arr[i];
+// 			arr[i] = arr[i - 1];
+// 			arr[i - 1] = temp;
+// 		}
+// 		if (i + 1 < arr.length && arr[i + 1] < arr[i]){
+// 			temp = arr[i];
+// 			arr[i] = arr[i + 1];
+// 			arr[i + 1] = temp;
+// 		}
+// 	}
+// 	return arr;
+// }
+// var waved = waveSort([1, 2, 3, 5, 6, 7]);
+// console.log(JSON.stringify(waved));
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 7: June 23, 2022
+//*_Algos & Jrl Self-Challenge 2022
+
+//*--1)--"Mean, Median and Mode"; 
+//*--Notes: Question and answer source: CoderByte Bootcamp- & Job-Interview Prep
+
+
+
+//!-------Challenge-Number Divider--------//
+
+//*--2)--"[Add Name of Challenge Here]"; 
+//*--Notes: Question and answer source: CoderByte Bootcamp- & Job-Interview Prep
+
+//?_Please see relevant entry in this directory/folder's Python file.
+
+//!-------Challenge-Number Divider--------//
+
+//*--3)--"zz"; 
+//*--Notes: Question and answer source: CoderByte Bootcamp- & Job-Interview Prep
+
+//?_xx
+
+//!-------Challenge-Number Divider--------//
+
+//*----------------------Day Divider------------------------//
