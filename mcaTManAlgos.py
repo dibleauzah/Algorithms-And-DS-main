@@ -63,20 +63,20 @@
 #//!--2)--"Implement Map"; 
 #//!--Notes: 1)--Question and answer source: CoderByte Bootcamp- & Job-Interview Prep. 2)--Suspending execution/running of code in the terminal for now, given my issue with that task. For now, the important objective is to get myself used again to Python, after having used JS for so long! :-| But for the record, Python was actually "my first love," vis-a-vis coding languages! :-)
 
-def filter(arr, fn):
+# def filter(arr, fn):
 
-    result = []
+#     result = []
 
-    for i in arr:
-        check = fn(i)
-        if check:
-            result.append(i)
+#     for i in arr:
+#         check = fn(i)
+#         if check:
+#             result.append(i)
     
-    return result
+#     return result
 
-    #//?_Usage:
-    isPositive = lambda x: x > 0
-    filter([-2, 4, 5, 8, -44, -6], isPositive); #//?_Returns [4, 5, 8]
+#     #//?_Usage:
+#     isPositive = lambda x: x > 0
+#     filter([-2, 4, 5, 8, -44, -6], isPositive); #//?_Returns [4, 5, 8]
 
 #//*----------------------Day Divider------------------------//
 
@@ -86,11 +86,59 @@ def filter(arr, fn):
 #//!--1)--"Implement Filter"; 
 #//!--Notes: Question and answer source: CoderByte Bootcamp- & Job-Interview Prep
 
-#//?_xx
+# def filter(arr, fn):
+#     result = []
 
-#//!--2)--"Switching Light Bulbs Problem"; 
+#     for i in arr:
+#         check = fn(i)
+#         if check:
+#             result.append(i)
+#     return result
+
+#     isPositive = lambda x: x > 0
+#     filter([-2, 4, 5, 8, -44, -6], isPositive); #?_=> [4, 5, 8]
+
+#//!-------Challenge-Number Divider--------//
+
+#//!--2)--"Switching Light Bulbs Problem";
 #//!--Notes: Question and answer source: CoderByte Bootcamp- & Job-Interview Prep
 
-#//?_xx
+# def lightBulbs(N):
+
+#     #?_Create N lightbulbs and set them to off
+#     lightBulbs = [False for i in range(0, N)]
+
+#     #?_Each person i labeled from 1 to N sets each Kth bulb to on or off, where k = 2*i, 3*i, etc.
+#     for i in range(1, N + 1):
+#         w = 1
+#         k = w * 1
+#         while k <= N:
+#             lightBulbs[k - 1] = lightBulbs[k - 1]
+#             w += 1
+#             k = w * i
+#     return lightBulbs
+
+#//!-------Challenge-Number Divider--------//
+
+#//!--3)--"Two Sum Problem";
+#//!--Notes: Question and answer source: CoderByte Bootcamp- & Job-Interview Prep
+
+# def twoSum(arr, S):
+#     hashTable = {}
+
+#     #?_Check each element in the array:
+#     for i in range(0, len(arr)):
+        
+#         #?_Calculate S minus current element:
+#         sumMinusElement = S - arr[i]
+#         if sumMinusElement in hashTable:
+#             return True
+        
+#         #?_Add the current number to the hash table:
+#         hashTable[arr[i]] = True
+    
+#     return False
+
+# twoSum([1, 2, 3, 4, 5], 9)
 
 #//*----------------------Day Divider------------------------//
