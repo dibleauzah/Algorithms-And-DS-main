@@ -171,3 +171,17 @@ console.log(map);
 //!-------Challenge-Number Divider--------//
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 8: June 24, 2022
+//*_Algos & Jrl Self-Challenge 2022
+
+//?_Please Note: This day's challenges have been done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 9: June 25, 2022
+//*_Algos & Jrl Self-Challenge 2022
+
+//?_Please Note: This day's challenges have been done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
+//*----------------------Day Divider------------------------//
