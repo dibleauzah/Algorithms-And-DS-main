@@ -1,7 +1,8 @@
 #//*_Testing--Py version...(GitHub Push 1)
 #//!_Test-2--i.e., GitHub--Py version
 
-#//* Template Starts Below (Delete This Line):
+#//* Template Starts Below:
+
 #//*----------------------Day Divider------------------------//
 
 #//*_Day X: [Month] DD, 2022
@@ -229,3 +230,42 @@
 
 #//!--Note 2 Cont'd / Note 3: 
 #//!--To anyone seeing this later; please note my genuine intense contrition, re: my inability to execute/test the code in this (Python) file for now! :-(
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 12: June 28, 2022
+#//*_Algos & Jrl Self-Challenge 2022
+
+#//!--1)--"Find Min. Depth of a Binary Tree"; 
+
+#//*--Note 1: Answer source: https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/ 
+#//*--Note 3: Code testing suspended.
+
+class Node:
+    def __init__(self, key):
+        self.data = key
+        self.left = None
+        self.right = None 
+    
+def minDepth(root):
+    if root is None:
+        return 0
+
+    if root.left is None and root.right is None:
+        return 1
+
+    if root.left is None:
+        return minDepth(root.right) + 1
+    
+    return min(minDepth(root.left), minDepth(root.right)) + 1
+
+    root = Node(1)
+    root.left = Node(2)
+    root.right = None (3)
+    root.left.left = None (4)
+    root.right.right = None(5)
+    print(minDepth(root))
+
+    #?_This code is contributed by Nikhil Kumar Singh(nickzuck_007)       
+
+#//*----------------------Day Divider------------------------//

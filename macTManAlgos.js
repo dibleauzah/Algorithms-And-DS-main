@@ -1,7 +1,8 @@
 //?_Testing--JS version...(GitHub Push 1)
 //?_Test-2--i.e., GitHub
 
-//* Template Starts Below (Delete This Line):
+//* Template Starts Below:
+
 //*----------------------Day Divider------------------------//
 
 //*_Day X: [Month] DD, 2022
@@ -289,27 +290,78 @@
 //*--Note 1: Question and answer source: CoderByte Bootcamp- & Job-Interview Prep
 //*--Note 2: Code testing suspended till tomorrow.
 
-function majorityElement(arr){
-  let candidate = null;
-  var count = 0;
+// function majorityElement(arr){
+//   let candidate = null;
+//   var count = 0;
 
-  for (let i = 0; i < arr.length; i++){
-    if(candidate === null || count === 0){
-      candidate = arr[i];
-      count = 1;
-    } else if (arr[i ===  candidate){
-      count += 1;
-    } else {
-      count -= 1;
-    }
+//   for (let i = 0; i < arr.length; i++){
+//     if(candidate === null || count === 0){
+//       candidate = arr[i];
+//       count = 1;
+//     } else if (arr[i ===  candidate){
+//       count += 1;
+//     } else {
+//       count -= 1;
+//     }
+//   }
+//   count = 0;
+//   for (let el of arr){
+//     if (el === candidate){
+//       count += 1;
+//     }
+//   }
+//   return (count > Math.floor(arr.length / 2)) ? candidate : null;
+// }
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 12: June 28, 2022
+//*_Algos & Jrl Self-Challenge 2022
+
+//!--1)--"Sorted Array to Balanced BST"; 
+//*--Note 1: Answer source: https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/ 
+//*--Note 2: Code testing suspended.
+
+class Node
+{
+  constructor(d)
+  {
+    this.data = d;
+    this.left = null;
+    this.right = null;
   }
-  count = 0;
-  for (let el of arr){
-    if (el === candidate){
-      count += 1;
-    }
-  }
-  return (count > Math.floor(arr.length / 2)) ? candidate : null;
 }
+
+var root = null;
+
+function sortedArraytoBST(arr, start, end)
+{
+  if (start > end)
+  {
+    return null;
+  }
+  var mid = parseInt((start + end) / 2);
+  var node = new Node(arr[mid]);
+  node.left = sortedArraytoBST(arr, start, mid - 1);
+  node.right = sortedArraytoBST(arr, mid + 1, end);
+  return node;
+}
+
+function preOrder(node)
+{
+  if (none == null)
+  {
+    return;
+  }
+  document.write(node.data + " ");
+  preOrder(node.left);
+  preOrder(node.right);
+}
+
+var arr = [1, 2, 3, 4, 5, 6, 7];
+var n = arr.length;
+root = sortedArraytoBST(arr, 0, n - 1);
+document.write("Preorder traversal of constructed BST<br>");
+preOrder(root);
 
 //*----------------------Day Divider------------------------//
