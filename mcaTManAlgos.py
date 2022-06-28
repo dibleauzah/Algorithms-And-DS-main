@@ -1,6 +1,29 @@
 #//*_Testing--Py version...(GitHub Push 1)
 #//!_Test-2--i.e., GitHub--Py version
 
+#//* Template Starts Below (Delete This Line):
+#//*----------------------Day Divider------------------------//
+
+#//*_Day X: [Month] DD, 2022
+#//*_Algos & Jrl Self-Challenge 2022
+#//?_Algo here
+#//?_Cont'd
+#//?_Cont'd
+
+#//!-------Challenge-Number Divider--------//
+#//?_Algo here
+#//?_Cont'd
+#//?_Cont'd
+
+#//!-------Challenge-Number Divider--------//
+#//?_Algo here
+#//?_Cont'd
+#//?_Cont'd
+
+#//* Template Ends Below (Delete This Line):
+#//*----------------------Day Divider------------------------//
+
+#//*_First Day Of Challenge in this file; Some Challenges Are Saved to PC directory and JS file.
 #//*_Day 7: June 23, 2022
 #//*_Algos & Jrl Self-Challenge 2022
 
@@ -149,15 +172,15 @@
 #//!--1)--"Calculate the Angle on a Clock"; 
 #//!--Notes: 1)--Question and answer source: CoderByte Bootcamp- & Job-Interview Prep. 2)--Suspending execution/running of code in the terminal for now, given my issue with that task. For now, the important objective is to get myself used again to Python, after having used JS for so long! :-| But for the record, Python was actually "my first love," vis-a-vis coding languages! :-)
 
-def clockAngle (hour, mins):
-    h = 0.5 * (60 * hour + mins)
-    m = 6 * mins
-    angle = abs(h - m)
+# def clockAngle (hour, mins):
+#     h = 0.5 * (60 * hour + mins)
+#     m = 6 * mins
+#     angle = abs(h - m)
 
-    if angle > 180:
-        return 360 - angle
-    else:
-        return angle
+#     if angle > 180:
+#         return 360 - angle
+#     else:
+#         return angle
 
 #//!--Note 2 Cont'd / Note 3: 
 #//!--To anyone seeing this later; please note my genuine intense contrition, re: my inability to execute/test the code in this (Python) file for now! :-(
@@ -167,20 +190,20 @@ def clockAngle (hour, mins):
 #//!--2)--"Is N a Prime Number"; 
 #//!--Notes: 1)--Question and answer source: CoderByte Bootcamp- & Job-Interview Prep. 2)--Suspending execution/running of code in the terminal for now, given my issue with that task. For now, the important objective is to get myself used again to Python, after having used JS for so long! :-| But for the record, Python was actually "my first love," vis-a-vis coding languages! :-)
 
-import math
-import re
+# import math
+# import re
 
-def isPrime(n):
+# def isPrime(n):
 
-    if n < 2:
-        return False
+#     if n < 2:
+#         return False
     
-    for i in range(2, int(math.ceil(math.sqrt(n)))):
+#     for i in range(2, int(math.ceil(math.sqrt(n)))):
 
-        if n % i == 0:
-            return False
+#         if n % i == 0:
+#             return False
         
-        return True 
+#         return True 
 
 #//!--Note 2 Cont'd / Note 3: 
 #//!--To anyone seeing this later; please note my genuine intense contrition, re: my inability to execute/test the code in this (Python) file for now! :-(
@@ -190,40 +213,19 @@ def isPrime(n):
 #//!--3)--"Check If Valid Number of Parentheses"; 
 #//!--Notes: 1)--Question and answer source: CoderByte Bootcamp- & Job-Interview Prep. 2)--Suspending execution/running of code in the terminal for now, given my issue with that task. For now, the important objective is to get myself used again to Python, after having used JS for so long! :-| But for the record, Python was actually "my first love," vis-a-vis coding languages! :-)
 
-def matchingParens(string):
-    counter = 0
+# def matchingParens(string):
+#     counter = 0
 
-    for c in string:
-        if c == '(':
-            counter += 1r
-        elif c == ')':
-            counter -= 1
+#     for c in string:
+#         if c == '(':
+#             counter += 1r
+#         elif c == ')':
+#             counter -= 1
     
-    if counter == 0
-        return True
-    else:
-        return False
+#     if counter == 0
+#         return True
+#     else:
+#         return False
 
 #//!--Note 2 Cont'd / Note 3: 
 #//!--To anyone seeing this later; please note my genuine intense contrition, re: my inability to execute/test the code in this (Python) file for now! :-(
-
-#//*----------------------Day Divider------------------------//
-
-#//*_Day 11: June 27, 2022
-#//*_Algos & Jrl Self-Challenge 2022
-
-#?_Algo here
-#?_Cont'd
-#?_Cont'd
-#?_Cont'd
-#?_Cont'd
-#?_Cont'd
-#?_Cont'd
-#?_Cont'd
-#?_Cont'd
-#?_Cont'd
-#?_Cont'd
-#?_Cont'd
-
-#//!-------Challenge-Number Divider--------//
-
