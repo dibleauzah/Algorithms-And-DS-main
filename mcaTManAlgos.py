@@ -1,8 +1,12 @@
 #//*_Testing--Py version...(GitHub Push 1)
-#//!_Test-2--i.e., GitHub--Py version
+#//_Test-2--i.e., GitHub--Py version
 
-#//* Template Starts Below:
+#//! Template 1 Starts Below:
 
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
+
+
+#//! Template 2 Starts Below:
 #//*----------------------Day Divider------------------------//
 
 #//*_Day X: [Month] DD, 2022
@@ -241,31 +245,75 @@
 #//*--Note 1: Answer source: https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/ 
 #//*--Note 3: Code testing suspended.
 
-class Node:
-    def __init__(self, key):
-        self.data = key
-        self.left = None
-        self.right = None 
+# class Node:
+#     def __init__(self, key):
+#         self.data = key
+#         self.left = None
+#         self.right = None 
     
-def minDepth(root):
-    if root is None:
-        return 0
+# def minDepth(root):
+#     if root is None:
+#         return 0
 
-    if root.left is None and root.right is None:
-        return 1
+#     if root.left is None and root.right is None:
+#         return 1
 
-    if root.left is None:
-        return minDepth(root.right) + 1
+#     if root.left is None:
+#         return minDepth(root.right) + 1
     
-    return min(minDepth(root.left), minDepth(root.right)) + 1
+#     return min(minDepth(root.left), minDepth(root.right)) + 1
 
-    root = Node(1)
-    root.left = Node(2)
-    root.right = None (3)
-    root.left.left = None (4)
-    root.right.right = None(5)
-    print(minDepth(root))
+#     root = Node(1)
+#     root.left = Node(2)
+#     root.right = None (3)
+#     root.left.left = None (4)
+#     root.right.right = None(5)
+#     print(minDepth(root))
 
-    #?_This code is contributed by Nikhil Kumar Singh(nickzuck_007)       
+#     #?_This code is contributed by Nikhil Kumar Singh(nickzuck_007)       
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 13: June 29, 2022
+#//*_Algos & Jrl Self-Challenge 2022
+
+#//!_Challenge #-1:
+
+# def reverse_bits(number, bit_size):
+#     max_value = (1 << bit_size) - 1
+
+#     return max_value - number
+
+# if __name__ == "_main_":
+
+# #--Example:
+#     num = 156
+
+# #--Choose a binary size you want to reverse:
+#     size = 32
+
+# print(reverse_bits(num, size))
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge #-2:
+#//!_Challenge #-2 Note: As I just told my study-group buddies on Discord, at the moment, I really **hate** this "Distribute Candy" challenge. But who knows, that hatred might turn into love in the future! ("Stranger things have been known to happen.")
+
+# class Solution(object):
+#     def distributeCandies(self, candies, num_people):
+#         res = [0 for i in range(num_people)]
+#         index = 0
+#         while candies > 0:
+#             res[index % num_people] += min(candies, index + 1)
+#             candies -= (index + 1)
+#             index += 1
+#         return res
+
+#     ob1 = Solution()
+#     print(ob1.distrubuteCandies(8, 3))
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge #-3:
+
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
 
 #//*----------------------Day Divider------------------------//

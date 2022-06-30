@@ -1,7 +1,12 @@
-//?_Testing--JS version...(GitHub Push 1)
-//?_Test-2--i.e., GitHub
+//_Testing--JS version...(GitHub Push 1)
+//_Test-2--i.e., GitHub
 
-//* Template Starts Below:
+//! Template 1 Starts Below:
+
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
+
+//! Template 2 Starts Below:
 
 //*----------------------Day Divider------------------------//
 
@@ -30,12 +35,12 @@
 
 //*_1)--Print all integers from 1 to 255
 //*_Note to Prof. Alex: I'll explain what I mean later, but please note that I am very disappointed with myself, re: my performance on this simple challenge! :-(
-// function printNums(){
-//     for (let i = 0; i <= 255; i++){
-//         console.log(i);
-//     }
-// }
-// console.log(printNums());
+function printNums(){
+    for (let i = 0; i <= 255; i++){
+        console.log(i);
+    }
+}
+console.log(printNums());
 
 //!-------Challenge-Number Divider--------//
 
@@ -322,46 +327,93 @@
 //*--Note 1: Answer source: https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/ 
 //*--Note 2: Code testing suspended.
 
-class Node
-{
-  constructor(d)
-  {
-    this.data = d;
-    this.left = null;
-    this.right = null;
-  }
-}
+// class Node
+// {
+//   constructor(d)
+//   {
+//     this.data = d;
+//     this.left = null;
+//     this.right = null;
+//   }
+// }
 
-var root = null;
+// var root = null;
 
-function sortedArraytoBST(arr, start, end)
-{
-  if (start > end)
-  {
-    return null;
-  }
-  var mid = parseInt((start + end) / 2);
-  var node = new Node(arr[mid]);
-  node.left = sortedArraytoBST(arr, start, mid - 1);
-  node.right = sortedArraytoBST(arr, mid + 1, end);
-  return node;
-}
+// function sortedArraytoBST(arr, start, end)
+// {
+//   if (start > end)
+//   {
+//     return null;
+//   }
+//   var mid = parseInt((start + end) / 2);
+//   var node = new Node(arr[mid]);
+//   node.left = sortedArraytoBST(arr, start, mid - 1);
+//   node.right = sortedArraytoBST(arr, mid + 1, end);
+//   return node;
+// }
 
-function preOrder(node)
-{
-  if (none == null)
-  {
-    return;
-  }
-  document.write(node.data + " ");
-  preOrder(node.left);
-  preOrder(node.right);
-}
+// function preOrder(node)
+// {
+//   if (none == null)
+//   {
+//     return;
+//   }
+//   document.write(node.data + " ");
+//   preOrder(node.left);
+//   preOrder(node.right);
+// }
 
-var arr = [1, 2, 3, 4, 5, 6, 7];
-var n = arr.length;
-root = sortedArraytoBST(arr, 0, n - 1);
-document.write("Preorder traversal of constructed BST<br>");
-preOrder(root);
+// var arr = [1, 2, 3, 4, 5, 6, 7];
+// var n = arr.length;
+// root = sortedArraytoBST(arr, 0, n - 1);
+// document.write("Preorder traversal of constructed BST<br>");
+// preOrder(root);
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 13: June 29, 2022//*_Algos & Jrl Self-Challenge 2022
+
+//!_Challenge-1 Placeholder:
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge-2 Placeholder:
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge-3 Placeholder:
+//!_Challenge-3 Note: Answer-Source: https://towardsdev.com/how-to-solve-min-stack-optimally-with-javascript-eb81a7ae3bb5.
+
+// function last(stack){
+//   return stack[stack.length - 1]
+// }
+
+// class minStack {
+//   constructor(){
+//     this.stack = []
+//     this.minStack = []
+//   }
+// }
+
+// push(x){
+//   if (this.minStack.length === 0 || x <= last(this.minStack)){
+//     this.minStack.push(x)
+//   }
+//   this.stack.push(x)
+// }
+
+// pop(){
+//   if(last(this.minStack) === last(this.stack)){
+//     this.minStack.pop()
+//   }
+//   return this.stack.pop()
+// }
+
+// top(){
+//   return last(this.stack)
+// }
+// getMin(){
+//   return last(this.minStack)
+// }
 
 //*----------------------Day Divider------------------------//
