@@ -11,24 +11,24 @@
 //!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
 /*
 ?2–[Add Details Here]
-    Asked in: Google, LinkedIn, Amazon
 ?3–[Add Details Here]
-    Asked in: Amazon, Google, Adobe
 ?4–[Add Details Here]
-    Asked in: Facebook, Uber
 */
 //*_Algos & Jrl Self-Challenge 2022
 //?_Algo here
 //?_Cont'd
 //?_Cont'd
+
 //!-------Challenge-Number Divider--------//
 //?_Algo here
 //?_Cont'd
 //?_Cont'd
+
 //!-------Challenge-Number Divider--------//
 //?_Algo here
 //?_Cont'd
 //?_Cont'd
+
 //! Template Ends Below (Delete This Line):
 //*----------------------Day Divider------------------------//
 
@@ -427,11 +427,8 @@
 //!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
 /*
 ?2–Calculate power function--JS
-    Asked in: Google, LinkedIn, Amazon
 ?3–Wave Array--JS
-    Asked in: Amazon, Google, Adobe
 ?4–Move zeros to an end--Py
-    Asked in: Facebook, Uber
 */
 //!_Challenge-1:
 //!_Challege-1 Note 1: For some reason, running the code below in the terminal returns "Infinity"! :-(

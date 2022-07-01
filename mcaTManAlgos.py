@@ -332,14 +332,10 @@ print (isPrime(3))
 #//*_(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
 
 #//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
-
 '''
-#?2--[Add Details Here]
-    #Asked in: Google, LinkedIn, Amazon
-#?3--[Add Details Here]
-    #Asked in: Amazon, Google, Adobe
-#?4--[Add Details Here]
-    #Asked in: Facebook, Uber
+#//?_Calculate power function--JS
+#//?_Wave Array--JS
+#//?_Move zeros to an end--Py
 '''
 #//*_Algos & Jrl Self-Challenge 2022
 #//!_Challenge-1 Placeholder:
