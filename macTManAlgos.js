@@ -2,31 +2,34 @@
 //_Test-2--i.e., GitHub
 
 //! Template 1 Starts Below:
-
 //?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
 
-
 //! Template 2 Starts Below:
-
 //*----------------------Day Divider------------------------//
-
-//*_Day X: [Month] DD, 2022
+//*_Day X: [Month] DD, 2022 
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+/*
+?2–[Add Details Here]
+    Asked in: Google, LinkedIn, Amazon
+?3–[Add Details Here]
+    Asked in: Amazon, Google, Adobe
+?4–[Add Details Here]
+    Asked in: Facebook, Uber
+*/
 //*_Algos & Jrl Self-Challenge 2022
 //?_Algo here
 //?_Cont'd
 //?_Cont'd
-
 //!-------Challenge-Number Divider--------//
 //?_Algo here
 //?_Cont'd
 //?_Cont'd
-
 //!-------Challenge-Number Divider--------//
 //?_Algo here
 //?_Cont'd
 //?_Cont'd
-
-//* Template Ends Below (Delete This Line):
+//! Template Ends Below (Delete This Line):
 //*----------------------Day Divider------------------------//
 
 //*_First Day Of Challenge on Mac; Some Challenges Are Saved to PC directory and Py file.
@@ -35,12 +38,12 @@
 
 //*_1)--Print all integers from 1 to 255
 //*_Note to Prof. Alex: I'll explain what I mean later, but please note that I am very disappointed with myself, re: my performance on this simple challenge! :-(
-function printNums(){
-    for (let i = 0; i <= 255; i++){
-        console.log(i);
-    }
-}
-console.log(printNums());
+// function printNums(){
+//     for (let i = 0; i <= 255; i++){
+//         console.log(i);
+//     }
+// }
+// console.log(printNums());
 
 //!-------Challenge-Number Divider--------//
 
@@ -416,4 +419,67 @@ console.log(printNums());
 //   return last(this.minStack)
 // }
 
+//*----------------------Day Divider------------------------//
+
+//*_Day 14: June 30, 2022//*_Algos & Jrl Self-Challenge 2022
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+/*
+?2–Calculate power function--JS
+    Asked in: Google, LinkedIn, Amazon
+?3–Wave Array--JS
+    Asked in: Amazon, Google, Adobe
+?4–Move zeros to an end--Py
+    Asked in: Facebook, Uber
+*/
+//!_Challenge-1:
+//!_Challege-1 Note 1: For some reason, running the code below in the terminal returns "Infinity"! :-(
+//!_Challenge-1 Note 2; Answer Src: https://www.geeksforgeeks.org/write-a-c-program-to-calculate-powxn/ 
+
+// function power(x, y)
+// {
+//     var temp;
+//     if (y == 0)
+//         return 1;
+//     temp = power(x, y/2);
+//     if (y % 2 == 0)
+//         return temp*temp;
+//     else
+//         return x*temp*temp;
+// }
+
+// console.log(power(5, 2));
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge-2:
+//!_Challenge-2 Note 1: "Whoo-hoo!" I just tested this particular challenge, and it works! :-)
+//!_Challenge-2 Note 2; Answer Src: https://www.geeksforgeeks.org/sort-array-wave-form-2/
+
+// function swap(arr, x, y){
+//     let temp = arr[x];
+//     arr[x] = arr[y];
+//     arr[y] = temp; 
+// }
+
+// function sortInWave(arr, n){
+//     arr.sort((a, b) => a - b);
+//     for (let i = 0; i < n - 1; i += 2)
+//         swap (arr, i, i + 1);
+// }
+
+// arr = [10, 90, 49, 2, 1, 5, 23];
+// let n = arr.length;
+
+// sortInWave(arr, n);
+
+// for(let i = 0; i < n; i++)
+//     console.log(arr[i] + " ");
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge-3 Placeholder:
+
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
+//* Template Ends Below (Delete This Line):
 //*----------------------Day Divider------------------------//

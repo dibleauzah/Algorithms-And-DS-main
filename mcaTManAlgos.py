@@ -2,14 +2,22 @@
 #//_Test-2--i.e., GitHub--Py version
 
 #//! Template 1 Starts Below:
-
 #//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
-
 
 #//! Template 2 Starts Below:
 #//*----------------------Day Divider------------------------//
-
 #//*_Day X: [Month] DD, 2022
+#//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+#//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+'''
+#?2--[Add Details Here]
+    #Asked in: Google, LinkedIn, Amazon
+#?3--[Add Details Here]
+    #Asked in: Amazon, Google, Adobe
+#?4--[Add Details Here]
+    #Asked in: Facebook, Uber
+'''
 #//*_Algos & Jrl Self-Challenge 2022
 #//?_Algo here
 #//?_Cont'd
@@ -195,20 +203,22 @@
 #//!--2)--"Is N a Prime Number"; 
 #//!--Notes: 1)--Question and answer source: CoderByte Bootcamp- & Job-Interview Prep. 2)--Suspending execution/running of code in the terminal for now, given my issue with that task. For now, the important objective is to get myself used again to Python, after having used JS for so long! :-| But for the record, Python was actually "my first love," vis-a-vis coding languages! :-)
 
-# import math
-# import re
+import math
+import re
 
-# def isPrime(n):
+def isPrime(n):
 
-#     if n < 2:
-#         return False
+    if n < 2:
+        return False
     
-#     for i in range(2, int(math.ceil(math.sqrt(n)))):
+    for i in range(2, int(math.ceil(math.sqrt(n)))):
 
-#         if n % i == 0:
-#             return False
+        if n % i == 0:
+            return False
         
-#         return True 
+        return True 
+
+print (isPrime(3))
 
 #//!--Note 2 Cont'd / Note 3: 
 #//!--To anyone seeing this later; please note my genuine intense contrition, re: my inability to execute/test the code in this (Python) file for now! :-(
@@ -217,6 +227,7 @@
 
 #//!--3)--"Check If Valid Number of Parentheses"; 
 #//!--Notes: 1)--Question and answer source: CoderByte Bootcamp- & Job-Interview Prep. 2)--Suspending execution/running of code in the terminal for now, given my issue with that task. For now, the important objective is to get myself used again to Python, after having used JS for so long! :-| But for the record, Python was actually "my first love," vis-a-vis coding languages! :-)
+#//!_>> This last note written later, i.e. 06-30-2022: I was able to start running code in the terminal below, but apparently, the code below doesn't work! :-(
 
 # def matchingParens(string):
 #     counter = 0
@@ -315,5 +326,43 @@
 #//!_Challenge #-3:
 
 #//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
+
+#//*----------------------Day Divider------------------------//
+#//*_Day 14: June 30, 2022
+#//*_(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+#//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+
+'''
+#?2--[Add Details Here]
+    #Asked in: Google, LinkedIn, Amazon
+#?3--[Add Details Here]
+    #Asked in: Amazon, Google, Adobe
+#?4--[Add Details Here]
+    #Asked in: Facebook, Uber
+'''
+#//*_Algos & Jrl Self-Challenge 2022
+#//!_Challenge-1 Placeholder:
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge-2 Placeholder:
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge-3:
+#//!_Note: Answer src: https://www.geeksforgeeks.org/move-zeroes-end-array/
+
+# Python Program to move all zeros to the end
+# A = [5, 6, 0, 4, 6, 0, 9, 0, 8]
+# n = len(A)
+# j = 0
+# for i in range(n):
+# 	if A[i] != 0:
+# 		A[j], A[i] = A[i], A[j] # Partitioning the array
+# 		j += 1
+# print(A) # Print the array
+
+#//?_Credit: This code is contributed by Tapesh(tapeshdua420)
 
 #//*----------------------Day Divider------------------------//
