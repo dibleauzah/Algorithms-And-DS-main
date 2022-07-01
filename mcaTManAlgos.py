@@ -12,11 +12,8 @@
 #//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
 '''
 #?2--[Add Details Here]
-    #Asked in: Google, LinkedIn, Amazon
 #?3--[Add Details Here]
-    #Asked in: Amazon, Google, Adobe
 #?4--[Add Details Here]
-    #Asked in: Facebook, Uber
 '''
 #//*_Algos & Jrl Self-Challenge 2022
 #//?_Algo here
