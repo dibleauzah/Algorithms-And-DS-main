@@ -478,5 +478,102 @@
 
 //?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
 
-//* Template Ends Below (Delete This Line):
+//*----------------------Day Divider------------------------//
+
+//*_Day 15: July 1, 2022 
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+/*
+?–Swapping Nodes In A Linked List Without Swapping Data--JS
+?–Find first and last positions of an element in a sorted array--Py
+*/
+
+//!_Challenge-1:
+//!_Challenge-1 note-1, July 1: https://www.geeksforgeeks.org/javascript-program-for-swapping-nodes-in-a-linked-list-without-swapping-data/.
+//!_Challenge-1 note-2, ``: Because of the adjustments I had to make--especially, re: trying to properly get the program to work via "console.log" vs. the "document.write" that the author(s) use(s) on the site shared above, unfortunately, the code below isn't working when I test it here: https://jsfiddle.net/. 
+
+// class Node {
+//     constructor(val){
+//         this.data = val;
+//         this.next = null;
+//     }
+// }
+
+// var head = null;
+// var tail = null;
+
+// function addNote(data){
+//     var newNode = new Node(data);
+
+//     if (head === null){
+//         head = newNode;
+//         tail = newNode;
+//     }
+//     else {
+//         tail.next = newNode;
+//         tail = newNode;
+//     }
+// }
+
+// function swap(n1, n2){
+//     var prevNode1 = null;
+//     var prevNode2 = null;
+//     node1 = head, node2 = head;
+
+//     if (head == null){
+//         return;
+//     }
+
+//     if (n1 == n2);
+//         return;
+    
+//     while (node1 != null && node1.data != n1){
+//         prevNode1 = node1;
+//         node1 = node1.next;
+//     }
+
+//     while(node2 != null && node2.data != n2){
+//         prevNode2 = node2;
+//         node2 = node2.next;
+//     }
+//     if (node1 != null && node2 != null){
+//         if (prevNode1 != null)
+//         prevNode1.next = node2;
+//         else
+//             head = node1;
+
+//         var temp = node1.next;
+//         node1.next = node2.next;
+//         node2.next = temp;
+//     }
+//     else {
+//         console.log("Sorry, no can't do! :-(")
+//         return;
+//     }
+//     while (current != null){
+//         console.log(current.data + " ");
+//         current = current.next;
+//     }
+//     return;
+// }
+
+// node1 = 1;
+// node2 = 2
+// node3 = 3;
+// node4 = 4;
+// node5 = 5;
+// node6 = 6;
+
+// console.log();
+// display();
+
+// swap(6, 1)
+
+// console.log();
+// display();
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge-2 Placeholder:
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
 //*----------------------Day Divider------------------------//

@@ -359,3 +359,39 @@ print (isPrime(3))
 #//?_Credit: This code is contributed by Tapesh(tapeshdua420)
 
 #//*----------------------Day Divider------------------------//
+#//*_Day 15: July 1, 2022
+#//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+#//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+'''
+#?-Swapping Nodes In A Linked List Without Swapping Data--JS
+#?-Find first and last positions of an element in a sorted array--Py
+'''
+#//!_Challenge-1 Placeholder:
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge-2:
+
+# def first(arr, low, high, x, n):
+#     if(high >= low):
+#         mid = low + (high - low) // 2
+#         if((mid == 0 or x > arr[mid - 1]) and arr[mid] == x):
+#             return mid
+#         else if (x > arr[mid]):
+#             return first (arr, (mid + 1), high, x, n)
+#         else:
+#             return first(arr, low, (mid - 1), x, n)
+#             return -1
+
+# def last(arr, low, high, x, n):
+#     if (high >= low):
+#         mid = low + (high - low) // 2
+#         if ((mid == n - 1 or x < arr[mid + 1]) and arr[mid] == x):
+#             return mid
+#         else if (x < arr[mid]):
+#             return last (arr, (mid + 1), high, x, n)
+        
+#         return -1
+
+#//*----------------------Day Divider------------------------//
