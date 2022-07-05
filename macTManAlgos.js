@@ -577,3 +577,47 @@
 //?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
 
 //*----------------------Day Divider------------------------//
+//*_Day 16: June 4, 2022 
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+/*
+?2–0--Not on my list, but added ad-hoc iteration vs. recursion and time-complexity learning: Fibonacci algorithm using both iterative and recursive solutions. To be done later. Source: https://medium.com/quick-code/fibonacci-sequence-javascript-interview-question-iterative-and-recursive-solutions-6a0346d24053 
+?_1--Merge Two Sorted Lists; You are given two sorted lists having head as head1 and head2 , write a program to merge them into one big sorted list
+?_2-xx
+?_3–xx
+*/
+//*_Algos & Jrl Self-Challenge 2022
+//!_Challenge 1:
+//!_Note: Note tested as of 11:42 PM, completion time.
+// function sortedMerge(a, b){
+//     let result = null;
+// }
+// let lastPtrRef = result;
+
+// while (1){
+//     if (a == null){
+//         lastPtrRef = b;
+//         break;
+//     }
+//     else if (b == null){
+//         lastPtrRef =  a;
+//         break;
+//     }
+//     if (a.data <= b.data){
+//         moveNode(lastPtrRef, a);
+//     } else {
+//         moveNode(lastPtrRef, b);
+//     }
+//     lastPtrRef = ((lastPtrRef).next);
+// }
+// return (result);
+
+//!-------Challenge-Number Divider--------//
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
+
+//!-------Challenge-Number Divider--------//
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
+
+//*----------------------Day Divider------------------------//

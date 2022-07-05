@@ -395,3 +395,78 @@ print (isPrime(3))
 #         return -1
 
 #//*----------------------Day Divider------------------------//
+#//*_Day 16: July 4, 2022
+#//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+#//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+'''
+#?2--[Add Details Here]
+#?3--[Add Details Here]
+#?4--[Add Details Here]
+'''
+#//*_Algos & Jrl Self-Challenge 2022
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
+
+
+#//!-------Challenge-Number Divider--------//
+#//!_Full disclosure: copied and pasted to save time, instead of manual typing. To be reviewed later. Source: https://tutorialspoint.dev/data-structure/binary-tree-data-structure/root-to-leaf-path-sum-equal-to-a-given-number 
+
+# def hasPathSum(node, s): 
+      
+#     # Return true if we run out of tree and s = 0  
+#     if node is None: 
+#         return (s == 0) 
+  
+#     else: 
+#         ans = 0 
+          
+#         # Otherwise check both subtrees 
+#         subSum = s - node.data  
+          
+#         # If we reach a leaf node and sum becomes 0, then  
+#         # return True  
+#         if(subSum == 0 and node.left == None and node.right == None): 
+#             return True 
+  
+#         if node.left is not None: 
+#             ans = ans or hasPathSum(node.left, subSum) 
+#         if node.right is not None: 
+#             ans = ans or hasPathSum(node.right, subSum) 
+  
+#         return ans  
+  
+# # Driver program to test above functions 
+  
+# s = 21
+# root = Node(10) 
+# root.left = Node(8) 
+# root.right = Node(2) 
+# root.left.right = Node(5) 
+# root.left.left = Node(3) 
+# root.right.left = Node(2) 
+  
+# if hasPathSum(root, s): 
+#     print "There is a root-to-leaf path with sum %d" %(s) 
+# else: 
+#     print "There is no root-to-leaf path with sum %d" %(s) 
+
+#//!-------Challenge-Number Divider--------//
+
+class Node:
+    def __init__(self, val):
+        self.value = val
+        self.left = None
+        self.right = None
+    
+    def minimumDepth(root):
+        if root == None:
+            return 0
+        
+    q = []
+    q.append({'node': root, 'depth': 1})
+
+    while len((q)):
+
+        #?_Incomplete as of 11:56 PM, due to time constraints. To be completed later.
+
+#//*----------------------Day Divider------------------------//
