@@ -615,6 +615,52 @@
 //!-------Challenge-Number Divider--------//
 //?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
 
+//!-------Challenge-Number Divider--------//
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
+//*----------------------Day Divider------------------------//
+//*_Day 17: July 5, 2022 
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+/*
+?2--Merge two binary tree (#-12 on "Easy List")--JS;
+?3--Sorted Array To Balanced BST (#-13 '')--JS;
+?4--Minimum absolute difference in BST (#-14 '')--Py.
+*/
+//*_Algos & Jrl Self-Challenge 2022
+
+console.log(mergeTrees(t1, t2));
+
+//!_Challenge 1: Given two binary trees and imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not. Write a program to merge them into a new binary tree.
+//!_Testing Suspended. 
+
+// var mergeTrees = function(t1, t2){
+//     if (t1 === null)
+//         return t2;
+//     if (t2 === null)
+//         return t1;
+//     t1.val += t2.val;
+//     t1.left = mergeTrees(t1.left, t2.left);
+//     t1.right = mergeTrees(t1.right, t2.right);
+//     return t1;
+
+// }
+// console.log(mergeTrees(t1, t2));
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: Given an array, arr[] having all the elements sorted in ascending order, write a program to convert it to a height balanced BST.
+//!_Testing Suspended.
+
+// var sortedArr = function(nums){
+//     if (nums.length === 0) retun null;
+//     let middle = Math.floor(nums.length / 2);
+//     let root = new TreeNode(nums[middle]);
+
+//     root.left = sortedArr(nums(0, middle));
+//     root.right = sortedArr(nums.slice(middle + 1));
+
+//     return root;
+// }
 
 //!-------Challenge-Number Divider--------//
 //?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.

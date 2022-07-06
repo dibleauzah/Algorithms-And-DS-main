@@ -200,22 +200,22 @@
 #//!--2)--"Is N a Prime Number"; 
 #//!--Notes: 1)--Question and answer source: CoderByte Bootcamp- & Job-Interview Prep. 2)--Suspending execution/running of code in the terminal for now, given my issue with that task. For now, the important objective is to get myself used again to Python, after having used JS for so long! :-| But for the record, Python was actually "my first love," vis-a-vis coding languages! :-)
 
-import math
-import re
+# import math
+# import re
 
-def isPrime(n):
+# def isPrime(n):
 
-    if n < 2:
-        return False
+#     if n < 2:
+#         return False
     
-    for i in range(2, int(math.ceil(math.sqrt(n)))):
+#     for i in range(2, int(math.ceil(math.sqrt(n)))):
 
-        if n % i == 0:
-            return False
+#         if n % i == 0:
+#             return False
         
-        return True 
+#         return True 
 
-print (isPrime(3))
+# print (isPrime(3))
 
 #//!--Note 2 Cont'd / Note 3: 
 #//!--To anyone seeing this later; please note my genuine intense contrition, re: my inability to execute/test the code in this (Python) file for now! :-(
@@ -451,22 +451,79 @@ print (isPrime(3))
 #     print "There is no root-to-leaf path with sum %d" %(s) 
 
 #//!-------Challenge-Number Divider--------//
+# class Node:
+#     def __init__(self, val):
+#         self.value = val
+#         self.left = None
+#         self.right = None
+    
+#     def minimumDepth(root):
+#         if root == None:
+#             return 0
+        
+#     q = []
+#     q.append({'node': root, 'depth': 1})
 
-class Node:
-    def __init__(self, val):
-        self.value = val
+#     while len((q)):
+
+#         #?_Incomplete as of 11:56 PM, due to time constraints. To be completed later.
+
+#//*----------------------Day Divider------------------------//
+#//*_Day 17: July 5, 2022
+#//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+#//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+'''
+#?2--Merge two binary tree (#-12 on "Easy List")--JS;
+#?3--Sorted Array To Balanced BST (#-13 on '')--JS;
+#?4--Minimum absolute difference in BST (#-14 '')--Py.
+'''
+
+#//!_Challenge 1 Placeholder.
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge 2 Placeholder.
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge 3:
+#//!_Testing Suspended.
+'''
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
         self.left = None
         self.right = None
-    
-    def minimumDepth(root):
-        if root == None:
-            return 0
-        
-    q = []
-    q.append({'node': root, 'depth': 1})
+'''
 
-    while len((q)):
 
-        #?_Incomplete as of 11:56 PM, due to time constraints. To be completed later.
+# class Solution(object):
+#     max_int = 2 ** 31 - 1
+#     def getMinimumDifference(self, root):
+#         '''
+#         :type root: TreeNode
+#         :rtype int
+#         '''
+
+#         if root == None
+#             return 0
+#         return self.helper(root)
+
+#     def helper(self, root):
+#         if root == None:
+#             return self.max_int
+#         val = self.max_int
+#         if root.left != None: 
+#             left = root.left
+#             while left != None and left.right != None:
+#                 left = left.right
+#             val = min(val, root.val - left.val)
+#         if root.right != None:
+#             right = root.right
+#             while right != None and left.right != None:
+#                 right = root.right
+#             val = min(val, right.val - root.val)
+#         return min(val, min(self.helper(root.left), self.helper(root.right)))
 
 #//*----------------------Day Divider------------------------//
