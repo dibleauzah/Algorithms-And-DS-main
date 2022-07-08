@@ -629,8 +629,6 @@
 */
 //*_Algos & Jrl Self-Challenge 2022
 
-console.log(mergeTrees(t1, t2));
-
 //!_Challenge 1: Given two binary trees and imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not. Write a program to merge them into a new binary tree.
 //!_Testing Suspended. 
 
@@ -665,5 +663,61 @@ console.log(mergeTrees(t1, t2));
 //!-------Challenge-Number Divider--------//
 //?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
 
+//*----------------------Day Divider------------------------//
+//*_Day 18: July 5, 2022 
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+//*_Another note: for today, I will split the current challenges' write up over two days.
+
+//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+//?_15–Lowest Common Ancestor of a BST--Py
+//?_16–Check if two arrays are equal or not--JS
+//?_17–First Unique Character in a String--Py
+
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: 
+
+function areEqual(arr1, arr2){
+    let n = arr1.length;
+    let m = arr2.length;
+}
+
+if (n != m)
+    return false;
+
+let map
+    = new Map();
+let count = 0;
+for (let i = 0; i < n; i++){
+    if (map.get(arr1[i]) == null)
+    map.set(arr1[i], 1)
+    else {
+    count = map.get(arr1[i]);
+    count++;
+    map.set(arr1[i], count);
+    }
+}
+
+for (let i = 0; i < n; i++){
+    if (map.get(arr2[i] == 0))
+    return false;
+
+    count = map.get(arr2[i]);
+    --count;
+    map.set(arr2[i], count);
+}
+return true;
+
+let arr1 = [3, 5, 2, 5, 2];
+let arr2 = [2, 3, 5, 5, 2];
+    if (areEqual(arr1, arr2))
+        document.write("Yes");
+    else
+        document.write("No");
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 3: 
+
+zz
 
 //*----------------------Day Divider------------------------//

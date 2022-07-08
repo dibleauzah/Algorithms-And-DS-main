@@ -489,6 +489,7 @@
 #//!-------Challenge-Number Divider--------//
 #//!_Challenge 3:
 #//!_Testing Suspended.
+
 '''
 class TreeNode(object):
     def __init__(self, x):
@@ -496,7 +497,6 @@ class TreeNode(object):
         self.left = None
         self.right = None
 '''
-
 
 # class Solution(object):
 #     max_int = 2 ** 31 - 1
@@ -527,3 +527,44 @@ class TreeNode(object):
 #         return min(val, min(self.helper(root.left), self.helper(root.right)))
 
 #//*----------------------Day Divider------------------------//
+#//*_Day 18: July 7, 2022
+#//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+#//*_Another note: for today, I will split the current challenges' write up over two days.
+
+#//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+'''
+#//?_15-Lowest Common Ancestor of a BST--Py
+#//?_16-Check if two arrays are equal or not--JS
+#//?_17-First Unique Character in a String--Py
+'''
+
+#//!_Challenge 1 Placeholder: ZZ
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge 2:
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge 3:
+
+def firstNon(str1):
+    char_order = []
+    ctr = {}
+    for c in str1:
+        if c in ctr:
+            ctr[c] += 1
+        else:
+            ctr[c] = 1
+            char_order.append(c)
+        for c in char_order:
+            if ctr[c] == 1:
+                return c
+    return None
+
+print(firstNon('abcdef'))
+print(firstNon('abcabcdef'))
+print(firstNon('aabbcc'))
+
+#//*----------------------Day Divider------------------------//
+
+
