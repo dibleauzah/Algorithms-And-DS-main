@@ -539,6 +539,8 @@ class TreeNode(object):
 '''
 
 #//!_Challenge 1 Placeholder: ZZ
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein.
+
 
 #//!-------Challenge-Number Divider--------//
 #//!_Challenge 2:
@@ -547,24 +549,115 @@ class TreeNode(object):
 #//!-------Challenge-Number Divider--------//
 #//!_Challenge 3:
 
-def firstNon(str1):
-    char_order = []
-    ctr = {}
-    for c in str1:
-        if c in ctr:
-            ctr[c] += 1
-        else:
-            ctr[c] = 1
-            char_order.append(c)
-        for c in char_order:
-            if ctr[c] == 1:
-                return c
-    return None
+# def firstNon(str1):
+#     char_order = []
+#     ctr = {}
+#     for c in str1:
+#         if c in ctr:
+#             ctr[c] += 1
+#         else:
+#             ctr[c] = 1
+#             char_order.append(c)
+#         for c in char_order:
+#             if ctr[c] == 1:
+#                 return c
+#     return None
 
-print(firstNon('abcdef'))
-print(firstNon('abcabcdef'))
-print(firstNon('aabbcc'))
+# print(firstNon('abcdef'))
+# print(firstNon('abcabcdef'))
+# print(firstNon('aabbcc'))
 
 #//*----------------------Day Divider------------------------//
+#//*_Day 19: July 8, 2022
+#//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+#//*_Another note: concluding yesterday's challenges.
 
+#//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+'''
+#//?_15-Lowest Common Ancestor of a BST--Py
+#//?_16-Check if two arrays are equal or not--JS
+#//?_17-First Unique Character in a String--Py
+'''
 
+#//!_Challenge 1 Placeholder: 
+
+# class Node:
+#     def __init__(self, into):
+#         self.into = info
+#         self.left = None
+#         self.right = None
+#         self.level = None
+    
+#     def __str__(self):
+#         return str(self.into)
+    
+# class searchTree:
+#     def __init__(self):
+#         self.root = None
+    
+#     def create(self, val):
+#         if self.root == None:
+#             self.root = Node(val)
+#         else:
+#             current = self.root
+
+#             while True:
+#                 if val < current.info:
+#                     if current.left:
+#                         current = current.left
+#                     else:
+#                         current.left = Node(val)
+#                         break
+#                 elif val > current.info:
+#                     if current.right:
+#                             current = current.right
+#                     else:
+#                         current.right = Node(val)
+#                         break
+#                 else:
+#                     break
+# # Enter your code here. Read input from STDIN. Print output to STDOUT
+# '''
+# class Node:
+#       def __init__(self,info): 
+#           self.info = info  
+#           self.left = None  
+#           self.right = None 
+    
+#        // this is a node of the tree , which contains info as data, left , right
+# '''
+
+# def lca(root, v1, v2):
+#     if(root.info < v1 and root.info > v2) or (root.info > v1 and root.info < v2):
+#         return root
+#     elif root.info < v1 and root.info < v2:
+#         return lca(root.right, v1, v2)
+#     elif root.info > v1 and root.info > v2:
+#         return lca(root.left, v1, v2)
+#     elif root.info == v1 or root.info == v2:
+#         return root
+
+# tree = searchTree()
+
+# t = int(input())
+
+# arr = list(map(int, input().split()))
+
+# for i in range(t):
+#     tree.create(arr[i])
+
+# v = list(map(int, input().split()))
+
+# ans = lca(tree.root, v[0], v[1])
+
+# print(ans.info)
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge 2:
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein. Done yesterday.
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge 3:
+#//?_Done Yesterday.
+
+#//*----------------------Day Divider------------------------//

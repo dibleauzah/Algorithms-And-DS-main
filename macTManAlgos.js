@@ -664,7 +664,7 @@
 //?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
 
 //*----------------------Day Divider------------------------//
-//*_Day 18: July 5, 2022 
+//*_Day 18: July 7, 2022 
 //*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
 //*_Another note: for today, I will split the current challenges' write up over two days.
 
@@ -672,6 +672,9 @@
 //?_15–Lowest Common Ancestor of a BST--Py
 //?_16–Check if two arrays are equal or not--JS
 //?_17–First Unique Character in a String--Py
+
+//!_Challenge 1:
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
 
 
 //!-------Challenge-Number Divider--------//
@@ -717,7 +720,28 @@ let arr2 = [2, 3, 5, 5, 2];
 
 //!-------Challenge-Number Divider--------//
 //!_Challenge 3: 
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
 
-zz
+//*----------------------Day Divider------------------------//
+//*_Day 19: July 8, 2022 
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+//*_Another note: concluding yesterday's challenges.
+
+//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+//?_15–Lowest Common Ancestor of a BST--Py
+//?_16–Check if two arrays are equal or not--JS
+//?_17–First Unique Character in a String--Py
+
+//!_Challenge 1:
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein.
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: 
+//?_Done Yesterday.
+
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 3: 
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein. Done yesterday.
 
 //*----------------------Day Divider------------------------//
