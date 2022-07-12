@@ -532,6 +532,7 @@ class TreeNode(object):
 #//*_Another note: for today, I will split the current challenges' write up over two days.
 
 #//!_Current Day's Challenge-List Preview; Alternate Between JS & Py, re: 2:1 Ratio Per Day:
+
 '''
 #//?_15-Lowest Common Ancestor of a BST--Py
 #//?_16-Check if two arrays are equal or not--JS
@@ -659,5 +660,34 @@ class TreeNode(object):
 #//!-------Challenge-Number Divider--------//
 #//!_Challenge 3:
 #//?_Done Yesterday.
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 20 & 21 Combined: July 11 and July 12, 2022
+#//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+'''
+#?_18-Climbing Stairs Problem.
+#?_19-Distribute Candy Problem.
+'''
+
+#//!_Challenge 1:
+#//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's JS file; refer to relevant (day's) entry therein. Done yesterday.
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge 2:
+#//!_Note: Apparently, the solution isn't running successfully.
+
+class Solution(object):
+    def distributeCandies(self, candies, num_people):
+        res = [0 for i in range(num_people)]
+        index = 0
+        while candies>0:
+            res[index%num_people] += (candies,index+1)
+            candies-=(index+1)
+            index+=1
+        return res
+ob1 = Solution()
+print(ob1.distributeCandies(8, 3))
 
 #//*----------------------Day Divider------------------------//

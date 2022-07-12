@@ -680,43 +680,43 @@
 //!-------Challenge-Number Divider--------//
 //!_Challenge 2: 
 
-function areEqual(arr1, arr2){
-    let n = arr1.length;
-    let m = arr2.length;
-}
+// function areEqual(arr1, arr2){
+//     let n = arr1.length;
+//     let m = arr2.length;
+// }
 
-if (n != m)
-    return false;
+// if (n != m)
+//     return false;
 
-let map
-    = new Map();
-let count = 0;
-for (let i = 0; i < n; i++){
-    if (map.get(arr1[i]) == null)
-    map.set(arr1[i], 1)
-    else {
-    count = map.get(arr1[i]);
-    count++;
-    map.set(arr1[i], count);
-    }
-}
+// let map
+//     = new Map();
+// let count = 0;
+// for (let i = 0; i < n; i++){
+//     if (map.get(arr1[i]) == null)
+//     map.set(arr1[i], 1)
+//     else {
+//     count = map.get(arr1[i]);
+//     count++;
+//     map.set(arr1[i], count);
+//     }
+// }
 
-for (let i = 0; i < n; i++){
-    if (map.get(arr2[i] == 0))
-    return false;
+// for (let i = 0; i < n; i++){
+//     if (map.get(arr2[i] == 0))
+//     return false;
 
-    count = map.get(arr2[i]);
-    --count;
-    map.set(arr2[i], count);
-}
-return true;
+//     count = map.get(arr2[i]);
+//     --count;
+//     map.set(arr2[i], count);
+// }
+// return true;
 
-let arr1 = [3, 5, 2, 5, 2];
-let arr2 = [2, 3, 5, 5, 2];
-    if (areEqual(arr1, arr2))
-        document.write("Yes");
-    else
-        document.write("No");
+// let arr1 = [3, 5, 2, 5, 2];
+// let arr2 = [2, 3, 5, 5, 2];
+//     if (areEqual(arr1, arr2))
+//         document.write("Yes");
+//     else
+//         document.write("No");
 
 //!-------Challenge-Number Divider--------//
 //!_Challenge 3: 
@@ -743,5 +743,36 @@ let arr2 = [2, 3, 5, 5, 2];
 //!-------Challenge-Number Divider--------//
 //!_Challenge 3: 
 //?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein. Done yesterday.
+
+//*----------------------Day Divider------------------------//
+//*_Day 20 & 21 Combined: July 11 and July 12, 2022
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+/*
+?_18–Climbing Stairs Problem.
+?_19–Distribute Candy Problem.
+*/
+
+//!_Challenge 1:
+
+// var climbStairs = function(n){
+//     if(n == 1 || n == 0) return 1
+
+//     let first = 1;
+//     let second = 2;
+
+//     for (let i = 3; i <= n; i++){
+//         let third = first + second
+//         first = second;
+//         second = third;
+//     }
+//     return second; 
+// };
+
+// console.log(climbStairs(10));
+
+//!-------Challenge-Number Divider--------//
+//!_Number 2:
+//?_Please Note: (Some or all) challenge(s) done via current (Algorithms-And-DS-main) directory's Python file; refer to relevant (day's) entry therein. Done yesterday.
+
 
 //*----------------------Day Divider------------------------//
