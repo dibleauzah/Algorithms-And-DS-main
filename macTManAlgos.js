@@ -776,3 +776,33 @@
 
 
 //*----------------------Day Divider------------------------//
+//*_Day 34: July 22, 2022
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+//!_Challenge 1:
+
+/*
+?_Min, Max, & Avg.
+?_Testing (of solution[s] suspended.)
+*/
+
+let myArr = [];
+
+var min = -Infinity;
+var max = Infinity;
+let sum = 0;
+
+for (let i = 0; i < myArr.length; i++){
+    sum = 0 + arr[i];
+    if (arr[i] > max){
+        max = arr[i];
+    }
+    if (arr[i] < min){
+        min = arr[i];
+    }
+    avg = sum / myArr.length;
+}
+
+console.log("Min is : " + min);
+console.log("Max is : " + max);
+console.log("Average is : " + avg);
