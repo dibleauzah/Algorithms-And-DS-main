@@ -844,10 +844,3 @@
 // }
 
 // console.log(minMaxAvg([1, 2, 3]));
-
-//*----------------------Day Divider------------------------//
-//*_Day 36: July 24, 2022
-//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
-
-//!_Challenge 1:
-
