@@ -678,16 +678,26 @@ class TreeNode(object):
 #//!_Challenge 2:
 #//!_Note: Apparently, the solution isn't running successfully.
 
-class Solution(object):
-    def distributeCandies(self, candies, num_people):
-        res = [0 for i in range(num_people)]
-        index = 0
-        while candies>0:
-            res[index%num_people] += (candies,index+1)
-            candies-=(index+1)
-            index+=1
-        return res
-ob1 = Solution()
-print(ob1.distributeCandies(8, 3))
+# class Solution(object):
+#     def distributeCandies(self, candies, num_people):
+#         res = [0 for i in range(num_people)]
+#         index = 0
+#         while candies>0:
+#             res[index%num_people] += (candies,index+1)
+#             candies-=(index+1)
+#             index+=1
+#         return res
+# ob1 = Solution()
+# print(ob1.distributeCandies(8, 3))
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 36: July 24, 2022
+#//!_Challenge 1:
+#//!_Note: Also Review Corresponding Challenge in Python File.
+#//!_Test Failed: Unfortunately, the code isn't running. I give up for now; "tactical retreat," if you will.
+
+# def Greeting():
+#     print("Hi. Have a great day!")
 
 #//*----------------------Day Divider------------------------//
