@@ -786,23 +786,67 @@
 ?_Testing (of solution[s] suspended.)
 */
 
-let myArr = [];
+// let myArr = [];
 
-var min = -Infinity;
-var max = Infinity;
-let sum = 0;
+// var min = -Infinity;
+// var max = Infinity;
+// let sum = 0;
 
-for (let i = 0; i < myArr.length; i++){
-    sum = 0 + arr[i];
-    if (arr[i] > max){
-        max = arr[i];
-    }
-    if (arr[i] < min){
-        min = arr[i];
-    }
-    avg = sum / myArr.length;
-}
+// for (let i = 0; i < myArr.length; i++){
+//     sum = 0 + arr[i];
+//     if (arr[i] > max){
+//         max = arr[i];
+//     }
+//     if (arr[i] < min){
+//         min = arr[i];
+//     }
+//     avg = sum / myArr.length;
+// }
 
-console.log("Min is : " + min);
-console.log("Max is : " + max);
-console.log("Average is : " + avg);
+// console.log("Min is : " + min);
+// console.log("Max is : " + max);
+// console.log("Average is : " + avg);
+
+//*----------------------Day Divider------------------------//
+//*_Day 35: July 23, 2022
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+//!_Challenge 1:
+
+
+//?"Min, Max, & Avg" Algo:
+//?_Unfortunately, the algo isn't working! But I'll have to move on for now.
+
+//_?_Could some1 plz help T-man run this via VSCode or somethin'?! :|
+
+// function minMaxAvg ([arr]){
+
+// let arr = [];
+
+// var min = Infinity;
+// var max = -Infinity;
+// var sum = 0;
+
+// for (let arr[i] = 0; arr[i] < arr.length; i++){
+// sum = sum + arr[i];
+
+//  if (arr[i] < min){
+// 	min = arr[i];
+// }
+//  if (arr[i] > max){
+// 	max = arr[i];
+// }
+// let avg = sum / arr.length;
+
+// return ("[Using British Accent: ] Ola! :-) Please note madam/sire, that min = ; " + min + " and guess what [?!], max = " + max + " and finally, avg = " + avg " ! Thanks, and have a lovely day!")
+
+//     }
+// }
+
+// console.log(minMaxAvg([1, 2, 3]));
+
+//*----------------------Day Divider------------------------//
+//*_Day 35: July 23, 2022
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+//!_Challenge 1:
