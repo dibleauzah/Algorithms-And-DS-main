@@ -701,3 +701,18 @@ class TreeNode(object):
 #     print("Hi. Have a great day!")
 
 #//*----------------------Day Divider------------------------//
+#//* Day 37 & 38: Jul 25 & 26, 2022
+#!_Day 37 & 38: Jul 25 & 26, 2022
+#!_//!_Algos & Jrl Self-Challenge 2022
+#!_>> Relevant Link*: https://github.com/dibleauzah/Algorithms-And-DS-main.git   
+#! >> *Waived; instead, I used this online IDE–xx– to do a sanity-check on myself–or, more precisely, my basic understanding of Python. Snippet typed:
+#!	   print ("Hello world! :-)")
+#!>> And yes! It worked.
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 39: July 27, 2022
+#//!_Please note: today challenges are in JS file. "'See you' tomorrow! :-)"
+
+#//*----------------------Day Divider------------------------//
+

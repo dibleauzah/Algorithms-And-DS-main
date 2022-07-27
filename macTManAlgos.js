@@ -854,10 +854,59 @@
 //!_Test Successful.
 
 
-// //?_Just Print Something. :-( 
+//?_Just Print Something. :-( 
 
-// console.log("Hi. Have a great day!");
+//? console.log("Hi. Have a great day!");
 
 //*----------------------Day Divider------------------------//
 
+//*_Day 37 & 38: Jul 25 & 26, 2022
+//!_Please note: these days' challenges are in Py file. "'See you' tomorrow! :-)"
 
+//*----------------------Day Divider------------------------//
+//*_Day 39: July 27, 2022
+//*(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+
+//!_Challenge 1:
+
+// for (let i = 1; i <= 255; i++){
+//     console.log(i);
+// }
+
+//!_Challenge 2:
+//!_Source: Grepper
+
+// var myArray = [];
+// for (var i = 1; i <= 5; i++){
+//     myArray.push(i);
+// } 
+// console.log(myArray) // console output [ 1, 2, 3, 4, 5 ]
+
+//!_Challenge 3:
+//!_Note: This is very frustrating, still being unable to do this after 100s or 1000s of practice.
+
+// let myArray = [1, 2, 3, 4, 5];
+
+// function minMaxEtc(myArray){
+
+// var min = myArray[0];
+// var max = myArray[0];
+// var avg = 0;
+
+// for (let i = 0; i < myArray.length; i++){
+//     if (myArray[i] < min) min = myArray[i];
+//     if (myArray[i] > max) max = myArray[i];
+//     avg += myArray[i];
+// }
+
+// avg /= myArray.length;
+
+// }
+
+// console.log("Min is : " + min);
+// console.log("Max is : " + max);
+// console.log("Average is : " + avg);
+
+// minMaxEtc([1, 2, 3, 4, 5]);
+
+//*----------------------Day Divider------------------------//
