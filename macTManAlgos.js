@@ -922,24 +922,26 @@
 //!_Challenge 1: "Min, Max, Avg"; Solution-Testing To Be Implemented 
 //!_Note: Requirement of three total algos suspended; only 1 required today.
 
-function minMaxAvg(arr){
-    var min = Infinity;
-    var max = -Infinity;
-    var sum = 0;
-    for (var i = 0; i < arr.length; i++){
-        sum = sum + arr[i];
-        if (arr[i] > max){
-            max = arr[i];  
-        }
-        else if (arr[i] < min){
-            min = arr[i];
-        }
-    }
-    var avg = sum / arr.length;
-    console.log ("Hi! Please note that your min is " + min + " ; your max is " + max + " ; and finally, your avg is " + avg + " . Have a great day!")
-}
+//!_Challenge 1 Note: Test failed.
 
-minMaxAvg([1, 2, 3, 4, 5]);
+// function minMaxAvg(arr){
+//     var min = Infinity;
+//     var max = -Infinity;
+//     var sum = 0;
+//     for (var i = 0; i < arr.length; i++){
+//         sum = sum + arr[i];
+//         if (arr[i] > max){
+//             max = arr[i];  
+//         }
+//         else if (arr[i] < min){
+//             min = arr[i];
+//         }
+//     }
+//     var avg = sum / arr.length;
+//     console.log ("Hi! Please note that your min is " + min + " ; your max is " + max + " ; and finally, your avg is " + avg + " . Have a great day!")
+// }
+
+// minMaxAvg([1, 2, 3, 4, 5]);
 
 //*----------------------Day Divider------------------------//
 
