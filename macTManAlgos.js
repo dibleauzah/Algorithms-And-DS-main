@@ -910,3 +910,40 @@
 // minMaxEtc([1, 2, 3, 4, 5]);
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 40: Jul 28, 2022
+//!_Please note: these days' challenges are in Py file. "'See you' tomorrow! :-)"
+
+//*----------------------Day Divider------------------------//
+//*_Day 41: July 29, 2022
+//*_(Important Note[!!!]: Pay Attn to the Solution-Options' Complexity Analyses!)
+//*_Note: Requirement of three total algos suspended; only 1 required today.
+
+//!_Challenge 1: "Min, Max, Avg"; Solution-Testing To Be Implemented 
+//!_Note: Requirement of three total algos suspended; only 1 required today.
+
+function minMaxAvg(arr){
+    var min = Infinity;
+    var max = -Infinity;
+    var sum = 0;
+    for (var i = 0; i < arr.length; i++){
+        sum = sum + arr[i];
+        if (arr[i] > max){
+            max = arr[i];  
+        }
+        else if (arr[i] < min){
+            min = arr[i];
+        }
+    }
+    var avg = sum / arr.length;
+    console.log ("Hi! Please note that your min is " + min + " ; your max is " + max + " ; and finally, your avg is " + avg + " . Have a great day!")
+}
+
+minMaxAvg([1, 2, 3, 4, 5]);
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 42: Jul 30, 2022
+//!_Please note: these days' challenges are in Py file. "'See you' tomorrow! :-)"
+
+//*----------------------Day Divider------------------------//

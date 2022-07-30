@@ -716,3 +716,54 @@ class TreeNode(object):
 
 #//*----------------------Day Divider------------------------//
 
+#//*_Day 40: July 28, 2022; Done Later, on Jul 29.
+#//!_Challenge 1: FizzBuzz; Testing Suspended.
+#//!_Note: Requirement of three total algos suspended; only 1 required today.
+
+# def fizzbuzz (n):
+#     result = []
+
+#     for i in range(1, n + 1):
+#         add = ''
+
+#         if i % 3 == 0:
+#             add += 'Fizz'
+        
+#         if i % 5 == 0:
+#             add += 'Buzz'
+        
+#         if add == '':
+#             result.append(i)
+#         else:
+#             result.append(add)
+        
+#         return result
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 41: July 29, 2022
+#//!_Please note: today challenges are in JS file. "'See you' tomorrow! :-)"
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 42: July 30, 2022; Done Later, on Jul 29.
+#//!_Challenge 1: Algorithms briefly suspended today, and the same measure will be used on an ad-hoc basis in the future. Rationale: In addition to algos, I am trying to make some good progress with this list: https://amankharwal.medium.com/130-python-projects-with-source-code-61f498591bb
+
+#//!_Challenge 1 Note: Test failed.
+
+# import random
+
+# n = random.randrange(1, 10)
+# guess = int(input("Enter any number: "))
+# while n!= guess:
+#     if guess < n:
+#         print("Too low! :-(")
+#     elif guess > n:
+#         print("Sorry! Too high!")
+#         guess = int(input("Come on, try again! Enter any number: "))
+#     else:
+#         break
+#     print("Alright! Look at you! You nailed it--good job!")
+
+#//*----------------------Day Divider------------------------//
+
