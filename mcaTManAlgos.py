@@ -767,3 +767,85 @@ class TreeNode(object):
 
 #//*----------------------Day Divider------------------------//
 
+#//*_Day 47: Aug 3, 2022; Done Later, on Aug 4.
+#//*_Note: Testing briefly suspended today, and the same measure will be used on an ad-hoc basis in the future. 
+
+#//!_Challenge 1: Sum of Nested Arrays
+
+# def sumNested(arr):
+
+#     result = 0
+#     for i in range(0, len(arr)):
+
+#         if type (arr[i]) is not int:
+#             result += sumNested(arr[i])
+        
+#         else:
+#             result += arr[i]
+        
+#     return result
+
+#//!-------Challenge-Number Divider--------//
+
+#//!_Challenge 2: Find Majority Element (Element Appearing [ > n/2 ] times )
+
+# import math
+# from pickletools import read_uint1
+
+# def majorityElement(arr):
+
+#     candidate = None
+#     count = 0
+
+#     for i in range(0, len(arr)):
+
+#         if candidate is None or count == 0:
+
+#             candidate = arr[i]
+#             count = 1
+
+#         elif arr[i] == candidate:
+
+#             count += 1
+        
+#         else:
+#             count -= 1
+
+#         count = 0
+#         for el in arr:
+#             if el == candidate:
+#                 count += 1
+            
+#             if count > math.floor(len(arr) / 2):
+#                 return candidate
+
+#             else:
+#                 return None
+
+#//!-------Challenge-Number Divider--------//
+
+#//!_Challenge 3: Return Mean, Median and Mode of Array
+
+# def meanMedianMode(arr):
+
+#     mean = sum(arr) / float(len(arr))
+
+#     arr = sorted(arr)
+#     median = arr[int(len(arr) / 2)]
+
+#     mode = None
+#     hashTable = {}
+
+#     for i in arr:
+#         if i in hashTable:
+#             hashTable[i] += 1
+        
+#         else:
+#             hashTable[i] = 1
+        
+#         if mode is None or hashTable[i] > mode:
+#             mode = i
+        
+#         return {'mean': mean, 'median': median, 'mode': mode}
+
+#//*----------------------Day Divider------------------------//

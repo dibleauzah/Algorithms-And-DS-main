@@ -949,3 +949,87 @@
 //!_Please note: these days' challenges are in Py file. "'See you' tomorrow! :-)"
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 48: Aug 4, 2022
+//*_Note: Testing briefly suspended today, and the same measure will be used on an ad-hoc basis in the future. 
+
+//!_Challenge 1: Implement Map & Filter.
+
+// function map(arr, fn){
+//     let result = [];
+
+//     for (let i of arr){
+//         let applied = fn(i);
+//         result.push(applied);
+//     }
+//     return result;
+// }
+// let square = (x) => x * x;
+// let addZeros = (x) => parseInt(x += '00')
+
+// map ([1, 2, 3, 4], square); 
+// map ([1, 2, 3, 4], addZeros);
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: Switching Light Bulbs.
+
+// function lightBulbs(N){
+//     let lightBulbs = [];
+//     for (let i = 0; i < N; i++){
+//         lightBulbs.push(false);
+//     }
+
+// for (let i = 1; i <= N; i++){
+//     let w = 1;
+//     let k = w * i;
+//     while (k <= N){
+//         lightBulbs[k - 1] = !lightBulbs[k - 1];
+//         w += 1;
+//         k = w * i;
+//     }
+// }
+// return lightBulbs;
+
+// }
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 3: Convert Array of Strings Into An Object
+
+// function convert(string){
+
+//     //?_Create empty object:
+//     let obj = {};
+
+//     //?_Split the string at each person:
+//     const people = string.split(' ');
+
+//     //?_Loop through all people:
+//     for (let p of people){
+
+//         //?_Split information for each person:
+//         const info = p.split(',');
+
+//         //?_Store this information in the user object:
+//         let userObj = {
+//             'email': info[1] || null,
+//             'age': parseInt(info[2]) || null,
+//             'occupation': info[3] || null
+//         };
+//         //?_Store key-value in object of users now:
+//         obj[info[0]] = userObj;
+//     }
+//     return obj;
+// }
+
+// //?_Usage:
+
+// let s = "Daniel,me@test.com,56,Coder John,,,Teacher Michael,mike@test.com,,";
+// let people = convert(s);
+
+// //?_Testing:
+
+// people['Daniel']['age']; //?_Should return => 56
+
+// people['Michael']['Occupation'] //?_Should return => null
+
+//*----------------------Day Divider------------------------//
