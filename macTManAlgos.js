@@ -1033,3 +1033,8 @@
 // people['Michael']['Occupation'] //?_Should return => null
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 51: Aug 7, 2022
+//!_Please note: these days' challenges are in Py file. "'See you' next time! :-)"
+
+//*----------------------Day Divider------------------------//

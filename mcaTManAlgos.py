@@ -773,16 +773,12 @@ class TreeNode(object):
 #//!_Challenge 1: Sum of Nested Arrays
 
 # def sumNested(arr):
-
 #     result = 0
 #     for i in range(0, len(arr)):
-
 #         if type (arr[i]) is not int:
 #             result += sumNested(arr[i])
-        
 #         else:
 #             result += arr[i]
-        
 #     return result
 
 #//!-------Challenge-Number Divider--------//
@@ -791,34 +787,23 @@ class TreeNode(object):
 
 # import math
 # from pickletools import read_uint1
-
 # def majorityElement(arr):
-
 #     candidate = None
 #     count = 0
-
 #     for i in range(0, len(arr)):
-
 #         if candidate is None or count == 0:
-
 #             candidate = arr[i]
 #             count = 1
-
 #         elif arr[i] == candidate:
-
-#             count += 1
-        
+#             count += 1       
 #         else:
 #             count -= 1
-
 #         count = 0
 #         for el in arr:
 #             if el == candidate:
-#                 count += 1
-            
+#                 count += 1     
 #             if count > math.floor(len(arr) / 2):
 #                 return candidate
-
 #             else:
 #                 return None
 
@@ -827,25 +812,72 @@ class TreeNode(object):
 #//!_Challenge 3: Return Mean, Median and Mode of Array
 
 # def meanMedianMode(arr):
-
 #     mean = sum(arr) / float(len(arr))
-
 #     arr = sorted(arr)
 #     median = arr[int(len(arr) / 2)]
-
 #     mode = None
 #     hashTable = {}
-
 #     for i in arr:
 #         if i in hashTable:
 #             hashTable[i] += 1
-        
 #         else:
 #             hashTable[i] = 1
-        
 #         if mode is None or hashTable[i] > mode:
 #             mode = i
-        
 #         return {'mean': mean, 'median': median, 'mode': mode}
 
 #//*----------------------Day Divider------------------------//
+
+#//*_Day 51: Aug 7, 2022
+#//*_Note: Testing briefly suspended.
+
+#//!_Challenge 1: "Calculcate the angle on a clock."
+#?_Testing suspended.
+
+# def clockAngle(hour, mins):
+
+#     h = 0.5 * (60 * hour + mins)
+#     m = 6 * mins
+#     angle = abs(h - m)
+
+#     if angle > 180:
+#         return 360 - angle
+#     else:
+#         return angle
+
+#//!-------Challenge-Number Divider--------//
+
+#//!_Challenge 2: "Check if valid number of parentheses."
+
+# def matchingParens(string):
+#     counter = 0
+
+#     for c in string:
+#         if c == '(':
+#             counter += 1r
+#         elif c == ')':
+#             counter -= 1
+    
+#     if counter == 0:
+#         return True
+#     else:
+#         return False
+
+#//!-------Challenge-Number Divider--------//
+
+#//!_Challenge 3: "Count words that have at least 3 continuous vowels."
+
+# import re
+
+# def threeVowels(string):
+
+#     arr = string.split(' ')
+#     count = 0
+
+#     for word in arr:
+#         if re.search(r' [aeiou] {3,}', word) != None:
+#             count += 1
+#         return count 
+
+#//*----------------------Day Divider------------------------//
+
