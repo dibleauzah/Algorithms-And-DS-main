@@ -1038,3 +1038,56 @@
 //!_Please note: these days' challenges are in Py file. "'See you' next time! :-)"
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 52: Aug 8, 2022
+//*_Testing Suspended
+
+//!_Challenge 1: (A/The) Two Sum Problem.
+
+function twoSum(arr, S){
+    let hashTable = {};
+    //?_Check each element in array:
+    for (let i = 0; i < length; i++)
+
+        //?_Calculate S - current element:
+        var sumMinusElement = S - arr[i];
+
+    //?_Check if this number exists in has table:
+    if (hashTable [sumMinusElement] !== undefined){
+        return true;
+    }
+    //?_Add the current number to the hash table:
+    hashTable[arr[i]] = true;
+}
+
+//!_Challenge 2: Determine In N is Prime.
+
+function isPrime(n){
+    //?_Check if all numbers less than 2 are not primes:
+    if (n < 2) { return false; } // loop from 2 to sqrt(n)
+    for (let i = 2; i <= Math.ceil(Math.sqrt(n)); i++) {
+
+    //?_check if (n mod i) is equal to 0, if so then there are // two numbers, a and b, that can multiply to give n
+    if (n % i === 0) { return false; }
+}
+return true; 
+
+}
+
+//!_Challenge 3: Climbing Stairs:
+
+// var climbStairs = function(n){
+//     if(n == 1 || n == 0) return 1
+
+//     let first = 1;
+//     let second = 2;
+
+//     for (let i = 3; i <= n; i++){
+//         let third = first + second
+//         first = second;
+//         second = third;
+//     }
+//     return second; 
+// };
+
+// console.log(climbStairs(10));
