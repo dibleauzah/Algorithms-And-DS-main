@@ -882,3 +882,64 @@ class TreeNode(object):
 #//*_Updated With Correct Date For Commit; time: 12:53 AM (Aug 9)
 
 #//*----------------------Day Divider------------------------//
+
+#//*_Day 53: Aug 9, 2022
+#//!_Testing still suspended. To be resumed tomorrow / next day of practice.
+
+#//!_Challenge 1: First non-repeating character:
+
+# def firstNonRepeat(string):
+#     hashTable = {}
+
+#     #//?_store each character in the hash table with the frequency of times it occurs:
+#     for c in string:
+#         if c not in hashTable:
+#             hashTable[c] = 1
+#         else:
+#             hashTable[c] += 1
+
+#     #//?_Loop through the string and return the first character with a count of 1 in the hash table: 
+#     for c in string:
+#         if hashTable[c] == 1:
+#             return c
+    
+#     #//?_Return -1 if no unique character exists:
+#     return -1
+
+#//!_Challenge 2: Remove all adjacent matching characters:
+#//!_Note: Even without testing the code, it's interesting how Python is very sensitive to white space! Details/explanation: the (VS-Code) editor kept underlining the "return result" (line 931 below), to warn me of a syntax/other problem. And the cause turned out to be a white space issue at the "while i < ..." line (918)!
+
+# def removePairs(string):
+#     #//?_A new string will be returned:
+#     result = ''
+#     i = 0
+
+#     #//?_Loop through the entire string:
+#     while i < len(string):
+#          #//?_If on last character:
+#          if i == len(string) - 1:
+#             result += string[i]
+        
+#          #//?_If characters are not equal, then add to new string:
+#          elif string[i] != string[i + 1]:
+#             result += string[i]
+
+#          #//?_if adjacent characters are equal to each other, then skip the next character entirely:
+#          else:
+#             i += 1
+#     i += 1
+#     return result
+
+#//!_Challenge 3: List of integers that overlap in two ranges:
+
+# def overLapping(range1, range2):
+#     overlap = []
+
+#     #//?_Check whether each number within range 1 is within range 2:
+#     for i in range(range1[0], range1[1] + 1):
+#         if i >= range2[0] and i <= range2[1]:
+#             overlap.append(i)
+        
+#     return overlap
+
+#//*----------------------Day Divider------------------------//
