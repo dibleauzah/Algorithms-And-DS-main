@@ -1101,3 +1101,48 @@
 //!_Note 2--Testing still suspended. To be resumed tomorrow / next day of practice.
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 54: Aug 10, 2022
+//!_Note: **_Selective / optional_** testing resumed.
+
+//!_Challenge 1: FizzBuzz
+
+// function fizzBuzz(n){
+//     let result = [];
+
+//     for (let i = 1; i <= n; i++){
+//         let add = '';
+    
+//     if (i % 3 === 0){add += 'Fizz';}
+    
+//     if (i % 5 === 0){add += 'Buzz';}
+
+//     if (add === ''){result.push(i); }
+//     else {result.push(add); }
+//     }
+//     return result;
+// }
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: Switching Lights Problem
+
+// function lightBulbs(N){
+//     //?_Create N lightbulbs and set them to off:
+//     let lightBulbs = [];
+//     for (let i = 0; i < N; i++){
+//         lightBulbs.push(false);
+//     }
+//     //?_Each person i labeled 1 to N sets each Kth lightbulb on or off where k = 2*i, 3*i, etc.:
+//     for (let i = 1; i <= N; i++){
+//         let w = 1;
+//         let k = w * i;
+//         while(k <= N){
+//             lightBulbs[k - 1] = !lightBulbs[k - 1];
+//             w += 1;
+//             k = w * i;
+//         }
+//     }
+//     return lightBulbs;
+// }
+
+//*----------------------Day Divider------------------------//
