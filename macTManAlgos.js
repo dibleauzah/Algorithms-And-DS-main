@@ -1146,3 +1146,62 @@
 // }
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 55: Aug 11, 2022
+//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project.
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 56: Aug 12, 2022
+
+//!_Challenge 1: Encode consonants within a string
+
+// function encodeConsonants(string){
+//     let result = '';
+//     //?_Store array of vowels for later use.
+//     const vowels = ['a', 'e', 'i', 'o', 'u'];
+//     //?_Loop through the entire string.
+//     for (let i of string){
+//         //?_Special case for Z.
+//         if (i === 'z'){
+//             result += 'b';
+//             break;
+//         } 
+//         //?_If letter is not a vowel or a space...
+//         else if (vowels.indexOf(i) === -1 && i !== ' '){
+//         //?_Convert each letter to its character code.
+//         let newCode = i.charCodeAt(0) + 1;
+//         //?_Perform check to make sure new letter is not a vowel by seeing if // the new letter exists in an array of vowels:
+//         if (vowels.indexOf(string.fromCharCode(newCode)) !== -1){
+//             newCode += 1;
+//         }
+//         //?_Get new letter and add to new string:
+//         result += string.fromCharCode(newCode);
+//         }
+//         else{
+//             result += i;
+//         }
+//     }
+//     return result;
+// }
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: Switching Lights Problem
+//!_Note: Instruction-comments waived.
+
+// function threeSum(arr, S){
+//     var arr = arr.sort();
+
+//     for (let i = 0; i < arr.length - 2; i++){        
+//         let ptr_start = i + 1;
+//         let ptr_end = arr.length - 1;
+
+//         while(ptr_start < ptr_end){
+//             let add = arr[i] + arr[ptr_start] + arr[ptr_end]; 
+//             if (add === S){return true; }
+//             else if (add < S){ptr_start += 1; }
+//             else{ptr_end -= 1; }
+//         }
+//     }
+//     return false;
+// }

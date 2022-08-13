@@ -945,6 +945,11 @@ class TreeNode(object):
 #//*----------------------Day Divider------------------------//
 
 #//*_Day 54: Aug 10, 2022
-#//!_Please note: today challenges are in JS file. "'See you' tomorrow! :-)"
+#//!_Please note: today's challenges are in JS file. "'See you' tomorrow! :-)"
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 55: Aug 11, 2022
+#//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project.
 
 #//*----------------------Day Divider------------------------//
