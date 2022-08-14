@@ -1205,3 +1205,9 @@
 //     }
 //     return false;
 // }
+//*----------------------Day Divider------------------------//
+
+//*_Day 57: Aug 13, 2022
+//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project.
+
+//*----------------------Day Divider------------------------//
