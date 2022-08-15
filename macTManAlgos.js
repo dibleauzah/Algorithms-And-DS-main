@@ -1211,3 +1211,55 @@
 //!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project.
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 58: Aug 14, 2022
+//*_Testing suspended.
+
+//!_Challenge 1: FizzBuzz.
+
+// function fizzBuzz(n){
+//     let result = [];
+//     for (let i = 1; i <= n; i++){
+//         let add = '';
+//     if (i % 3 === 0){add += 'Fizz';}
+//     if (i % 5 === 0){add += 'Buzz';}
+//     if (add === ''){result.push(i);}
+//     else{result.push(add);}
+//     }
+//     return result;
+// }
+
+//!_Challenge 2: Check if valid number of parentheses.
+
+// function matchingParens(string){
+//     let counter = 0;
+//     for (let c of string){
+//         if (c === '('){counter += 1;}
+//         if (c === ')'){counter -= 1;}
+//     }
+//     return (counter === 0) ? true : false;
+// }
+
+//!_Challenge 3: Convert array of strings into object.
+
+// function covert(string){
+//     let obj = {};
+
+//     const people = string.split(' ');
+//     for (let p of people){
+//         const info = p.split(',');
+
+//         let userObj = {
+//             'email': info[1] || null,
+//             'age': parseInt(info[2]) || null,
+//             'occupation': info[3] || nulll
+//         };
+//         obj[info[0]] = userObj;
+//     }
+//     return obj;
+// }
+
+// usage
+// let s = "Daniel,me@test.com,56,Coder John,,,Teacher Michael,mike@test.com,,"; 
+// let people = convert(s); 
+
