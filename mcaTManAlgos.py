@@ -962,3 +962,48 @@ class TreeNode(object):
 #//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project.
 
 #//*----------------------Day Divider------------------------//
+#//*_Day 59: Aug 15, 2022
+
+#//!_Challenge 1: Is N a prime no.?
+
+# import math
+# def isPrim(n):
+#     #?_All numbers less than 2 are not primes:
+#     if n < 2:
+#         return False
+#     #?_Loop from 2 to sqrt(n):
+#     for i in range(2, int(math.ceil(math.sqrt(n)))):
+#         #?_Check if (n % i) = 0. If "yes," then there are 2 numbers a & b, which if multiplied = n.
+#         if n % i == 0:
+#             return False        
+#     return True 
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge 2: Find majority element (i.e., appearing more than n/2 times).
+
+# import math
+# def majorityElement(arr):
+#     candidate = None
+#     count = 0
+#     for i in range(0, len(arr)):
+#         if candidate is None or count == 0:
+#             candidate = arr[i]
+#             count = 1
+#         elif arr[i] == candidate:
+#             count += 1
+#         else:
+#             count -= 1
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge 3: List of integers that overlap in two ranges.
+
+# from turtle import end_fill
+# def overLapping(range1, range2):
+#     overlap = []
+#     #?_Check whether each number within range1 is also among those of range2.
+#     for i in range(range1[0], range1[1] + 1):
+#         if i >= range2[0] and i <= range2[1]:
+#             overlap.append(i)
+#     return overlap
+
+#//*----------------------Day Divider------------------------//
