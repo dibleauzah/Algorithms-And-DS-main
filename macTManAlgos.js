@@ -1337,3 +1337,8 @@
 // }
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 62: Aug 18, 2022
+//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project.
+
+//*----------------------Day Divider------------------------//
