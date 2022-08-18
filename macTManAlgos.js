@@ -1229,6 +1229,7 @@
 //     return result;
 // }
 
+//!-------Challenge-Number Divider--------//
 //!_Challenge 2: Check if valid number of parentheses.
 
 // function matchingParens(string){
@@ -1240,6 +1241,7 @@
 //     return (counter === 0) ? true : false;
 // }
 
+//!-------Challenge-Number Divider--------//
 //!_Challenge 3: Convert array of strings into object.
 
 // function covert(string){
@@ -1263,3 +1265,75 @@
 // let s = "Daniel,me@test.com,56,Coder John,,,Teacher Michael,mike@test.com,,"; 
 // let people = convert(s); 
 
+//*----------------------Day Divider------------------------//
+
+//*_Day 60: Aug 16, 2022
+//!_Challenges waived for the day.
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 61: Aug 17, 2022
+//*_Testing suspended.
+
+//!_Challenge 1: Sum up nested arrays.
+//!_"From the looks of it," testing this successfully will be fun!
+
+// function sumNested(arr){
+//     let result = 0;
+//     //?_Sum up all the numbers in the array:
+//     for (let i = 0; i < arr.length; i++){
+//         if (typeof arr[i] != 'number'){
+//             result += sumNested(arr[i]);
+//         } else {
+//             result += arr[i];
+//         }
+//     }
+//     return result;
+// }
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: First non-repeating character.
+
+// function firstNonRepeatChar(string){
+//     let hashTable = {};
+//     //?_Store each character in the hashtable with the frequency of times it occurs.
+//     for (let c of string){
+//         if (hashTable[c] === undefined){
+//             hashTable[c] = 1;
+//         } else {
+//             hashTable[c] += 1;
+//         }
+//     }
+//     //?_Loop through the string and return first character with a count of 1 in the hash table.
+//     for (let c of string){
+//         if(hashTable[c] === 1){
+//             return c;
+//         }
+//     }
+//     //?_Return -1 if no unique character exists.
+//     return -1;
+// }
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 3:
+
+// function lightBulb(N){
+//     //?_Create N lightbulbs and set them to off.
+//     let lightBulb = [];
+//     for (let i = 0; i < N; i++){
+//         lightBulb.push(false);
+//     }
+//     //?_Each person i labelled from 1 to N sets each Kth lightbulb to on or off, where k = 2*i, 3*i, etc.
+//     for (let i = 1; i <= N; i++){
+//         let w = 1;
+//         let k = w * i;
+//         while (k <= N){
+//             lightBulb[k - 1] = !lightBulb[k - 1];
+//             w += 1;
+//             k = w * i;
+//         }
+//     }
+//     return lightBulb;
+// }
+
+//*----------------------Day Divider------------------------//

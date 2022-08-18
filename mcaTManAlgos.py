@@ -1007,3 +1007,18 @@ class TreeNode(object):
 #     return overlap
 
 #//*----------------------Day Divider------------------------//
+
+#//*_Day 60: Aug 16, 2022
+#//!_Challenges waived for the day.
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 61: Aug 17, 2022
+#//!_Please note: today's challenges are in JS file. "'See you' tomorrow, or 'next time'! :-)"
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 62: Aug 18, 2022
+#//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project; take a looksie in the relevant folder/file! :-) 
+
+#//*----------------------Day Divider------------------------//
