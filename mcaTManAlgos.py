@@ -1022,3 +1022,17 @@ class TreeNode(object):
 #//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project; take a looksie in the relevant folder/file! :-) 
 
 #//*----------------------Day Divider------------------------//
+
+#//!_Missing: Days 63 & Day 64, Aug 19 & 20 (2022).
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 65: Aug 21, 2022
+#//!_Please note: today's challenges are in JS file. "'See you' tomorrow, or 'next time'! :-)"
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 66: Aug 22, 2022
+#//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project; take a looksie in the relevant folder/file! :-) 
+
+#//*----------------------Day Divider------------------------//

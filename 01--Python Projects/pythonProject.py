@@ -75,5 +75,19 @@
 #//?_To be done later / on another day.
 
 #//*-----------------Challenge Divider--------------------//
+#//*_Aug 18, 2022
+#//!_Challenge: "Calculate mean, median, and mode" concluded--i.e., with mode.
+#//!_Note: Testing still suspended.
 
+list1 = [1, 2, 3, 4, 5, 6, 7]
+frequency = {}
+for i in list1:
+    frequency.setDefault(i, 0)
+    frequency[i] += 1
 
+frequent = max(frequency.values())
+for i, j in frequency.items():
+    mode = i
+print(mode)
+
+#//*-----------------Challenge Divider--------------------//

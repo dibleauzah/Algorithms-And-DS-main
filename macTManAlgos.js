@@ -1342,3 +1342,68 @@
 //!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project.
 
 //*----------------------Day Divider------------------------//
+
+//!_Missing: Days 63 & Day 64, Aug 19 & 20 (2022).
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 65: Aug 21, 2022
+//*_Testing suspended.
+
+//!_Challenge 1: Two-sum problem.
+
+// function twoSum(arr, S){
+//     let hashTable = {};
+
+//     //?_Check each element in array:
+//     for (let i = 0; i < arr.length; i++){
+
+//         //?_Calculate S minus current element:
+//         let sumMinusEl = S - arr[i];
+        
+//         //?_Calculate if this # exists in hash table:
+//         if(hashTable [sumMinusEl] !== undefined){
+//             return true;
+//         }
+//         //?_Add current number to the hash table:
+//         hashTable[arr[i]] = true;
+//     }
+//     return false;
+// }
+
+// //?_Not actually doing this today, but I would call my function below, thus:
+// //?_twoSum ([1, 2, 3], 5);
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: Count words with 3 continuous vowels.
+//?_Instruction comments Waived.
+
+// function threeVowels(string){
+//     let arr = string.split(' ');
+//     let count = 0;
+
+//     const pattern = /[aeiou]{3,}/gi;
+
+//     for(let word of arr){
+//         if(word.match(pattern) !== null){
+//             count += 1;
+//         }
+//     }
+//     return count;
+// }
+
+// //?_Not actually doing this today, but I would call my function below, thus:
+// //?_threeVowels ("Aabda, caa daaa braaa!");
+//?_I'm actually really curious, re: whether or not it will work, given my cute/cheeky string above! Doesn't matter, regardless; the fatigue "cancels out" the curiousity! :-(
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 3:
+
+//?_Waived (and yes, due to laziness/fatigue!).
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 66: Aug 22, 2022
+//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project.
+
+//*----------------------Day Divider------------------------//
