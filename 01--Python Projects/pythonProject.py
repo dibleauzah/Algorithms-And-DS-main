@@ -75,7 +75,7 @@
 #//?_To be done later / on another day.
 
 #//*-----------------Challenge Divider--------------------//
-#//*_Aug 18, 2022
+#//*_Aug 22, 2022
 #//!_Challenge: "Calculate mean, median, and mode" concluded--i.e., with mode.
 #//!_Note: Testing still suspended.
 
