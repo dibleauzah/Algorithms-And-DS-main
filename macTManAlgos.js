@@ -1436,13 +1436,13 @@
 //!-------Challenge-Number Divider--------//
 //!_Challenge 3: Print and sum from 1 to 255.
 
-function printSum(){
-    var sum = 0;
-    for (let i = 0; i <= 255; i++){
-        sum = sum + i;
-        console.log(i + ' Hi! Please note dear human, that the current sum is ' + sum + '. Have an awesome day/night! :-)');
-    }
-}
-printSum();
+// function printSum(){
+//     var sum = 0;
+//     for (let i = 0; i <= 255; i++){
+//         sum = sum + i;
+//         console.log(i + ' Hi! Please note dear human, that the current sum is ' + sum + '. Have an awesome day/night! :-)');
+//     }
+// }
+// printSum();
 
 //*----------------------Day Divider------------------------//
