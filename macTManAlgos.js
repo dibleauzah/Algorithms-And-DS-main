@@ -1407,3 +1407,42 @@
 //!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project.
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 67: Aug 23, 2022
+//!_"Back to the basics"! :-)
+//!_But testing is still suspended for challenges 1 and 2. And if you're judging me, I don't blame you! 
+//!_Test successful for challenge 3.
+
+//!_Print from 1 to 255:
+// function justPrint(){
+//     for (let i = 1; i <= 255; i++){
+//         console.log(i);
+//     }
+//     return;
+// }
+// justPrint();
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: Print **odds** from 1 to 255:
+
+// function printOdds(){
+//     for (let i = 1; i <= 255; i += 2){
+//         console.log(i);
+//     }
+//     return;
+// }
+// printOdds();
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 3: Print and sum from 1 to 255.
+
+function printSum(){
+    var sum = 0;
+    for (let i = 0; i <= 255; i++){
+        sum = sum + i;
+        console.log(i + ' Hi! Please note dear human, that the current sum is ' + sum + '. Have an awesome day/night! :-)');
+    }
+}
+printSum();
+
+//*----------------------Day Divider------------------------//
