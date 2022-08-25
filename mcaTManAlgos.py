@@ -1007,32 +1007,60 @@ class TreeNode(object):
 #     return overlap
 
 #//*----------------------Day Divider------------------------//
-
 #//*_Day 60: Aug 16, 2022
 #//!_Challenges waived for the day.
-
 #//*----------------------Day Divider------------------------//
-
 #//*_Day 61: Aug 17, 2022
 #//!_Please note: today's challenges are in JS file. "'See you' tomorrow, or 'next time'! :-)"
-
 #//*----------------------Day Divider------------------------//
-
 #//*_Day 62: Aug 18, 2022
 #//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project; take a looksie in the relevant folder/file! :-) 
-
 #//*----------------------Day Divider------------------------//
-
 #//!_Missing: Days 63 & Day 64, Aug 19 & 20 (2022).
-
 #//*----------------------Day Divider------------------------//
-
 #//*_Day 65: Aug 21, 2022
 #//!_Please note: today's challenges are in JS file. "'See you' tomorrow, or 'next time'! :-)"
-
 #//*----------------------Day Divider------------------------//
-
 #//*_Day 66: Aug 22, 2022
 #//!_Please note: today's challenges are waived. Instead, I am practicing via a Python mini-project; take a looksie in the relevant folder/file! :-) 
+
+#//*----------------------Day Divider------------------------//
+#//*_Day 69: Aug 25, 2022
+
+#?_Challenge 0:
+#?_Note: Test successful! (It printed.) :-) 
+# print("Sanity Check!")
+
+#!_Challenge 1: Two-Sum Problem: 
+#!_Details: You are given an array and some number S. Determine if any two numbers within the array sum to S.
+
+#!_Note 1: For the love of G_d: what am I doing wrong?! Please note that I've tried googling a solution in vain.
+#!_Google-search details:
+#!_Detail 1: Search term (among others): "correct way of calling a function in python in vs code"
+#!_Detail 2: Results = many of course. However, this particular solution isn't helping (!): 
+#!_Solution URL: https://stackoverflow.com/questions/67078237/how-do-i-call-a-function-in-vs-code-using-python#:~:text=In%20order%20to%20call%20a,you%20should%20use%20print%20instead.
+
+def twoSum(arr, S):
+    hashTable = {}
+
+    for i in range(0, len(arr)):
+
+        sumMinusElm = S - arr[i]
+
+        if sumMinusElm in hashTable:
+            return True
+        
+        hashTable[arr[i]] = True
+    
+    return False
+
+    #!_Note 2: Part of the problem is on this line below; VS-Code is helpfully giving "twoSum" a red squigly line, meaning 
+    print(twoSum[1, 2, 3], 5)
+
+
+    #//!_Challenges 2 and 3.
+    #//!_Time spent testing challenge 1, all in vain! :-(
+
+#//!-------Challenge-Number Divider--------//
 
 #//*----------------------Day Divider------------------------//

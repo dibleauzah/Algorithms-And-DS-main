@@ -1446,3 +1446,59 @@
 // printSum();
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 68: Aug 24, 2022
+//*_Testing mostly successful; 90% / PASS ("Without Distinction"). Reason: It printed to 254, instead of 255
+
+//!_Challenge 1: Print to 255.
+// function justPrintNowAndeleAndele(){
+//     for (let i = 1; i < 255; i++){
+//         console.log(i);
+//     }
+//     return;
+// }
+
+// justPrintNowAndeleAndele();
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: Print Odds to 255.
+
+//!_Note 1: My onw approach, vs. that of Coding Dojo book. 
+//!_Note 2: Result: UN-F-ING BELIEVABLE!!! O-m-G!!! Yiippeee! (Um...in case you haven't figured it out, it worked! Whoo-hoo!)
+// function printOdds(n){
+//     for (let i = 0; i <= 255; i++){
+//         if (i % 2 === 0){
+//             i === null;
+//         } else {
+//         console.log(i);
+//         } 
+//     }
+// }
+// printOdds(255);
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 3: Min, Max, Avg; attempted from memory and/or previous practice. [Sigh; "here goes nothing!" :-( ] 
+//!_Note 1: Honor system in use here; test attempted unsuccessfully! :-(
+//!_Note 2: To be reviewed tomorrow. 
+
+function minMaxAvg(arr){
+    min = Infinity;
+    max = -Infinity;
+    sum = 0;
+    for (let i = 0; i < arr.length; i++){
+        sum = sum + arr[i];
+    }
+    if (min < arr[i]){
+        min = arr[i];
+    } else {
+    if (max > arr[i]){
+        max = arr[i];
+    }
+    //?_Regardless of whatever else is wrong with this poor code-block, I know that the next two lines are probably NOT supposed to be together--i.e., within the same curly-bracket sub-block, so to speak (sorry; amateur-buoy here has to often make up his own technical vocabulary!).
+    let avg = sum / arr.length;
+    return ("Hello! Please note: your min is " + min + ", your max is " + max + ", and finally, your average is " + avg + ". Have an awesome day, dear human! :-)"); 
+    }
+}
+console.log(minMaxAvg([1, 2, 3, 4, 5]));
+
+//*----------------------Day Divider------------------------//
