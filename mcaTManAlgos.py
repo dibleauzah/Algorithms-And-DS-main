@@ -1059,8 +1059,8 @@ def twoSum(arr, S):
     print(twoSum[1, 2, 3], 5)
 
 
-    #//!_Challenges 2 and 3.
-    #//!_Time spent testing challenge 1, all in vain! :-(
+    #//!_Challenges 2 and 3 waived.
+    #//!_Reason: Time spent testing challenge 1, all in vain! :-(
 
 #//!-------Challenge-Number Divider--------//
 
