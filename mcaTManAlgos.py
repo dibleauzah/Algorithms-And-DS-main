@@ -1041,19 +1041,19 @@ class TreeNode(object):
 #!_Detail 2: Results = many of course. However, this particular solution isn't helping (!): 
 #!_Solution URL: https://stackoverflow.com/questions/67078237/how-do-i-call-a-function-in-vs-code-using-python#:~:text=In%20order%20to%20call%20a,you%20should%20use%20print%20instead.
 
-def twoSum(arr, S):
-    hashTable = {}
+# def twoSum(arr, S):
+#     hashTable = {}
 
-    for i in range(0, len(arr)):
+#     for i in range(0, len(arr)):
 
-        sumMinusElm = S - arr[i]
+#         sumMinusElm = S - arr[i]
 
-        if sumMinusElm in hashTable:
-            return True
+#         if sumMinusElm in hashTable:
+#             return True
         
-        hashTable[arr[i]] = True
+#         hashTable[arr[i]] = True
     
-    return False
+#     return False
 
     #!_Note 2: Part of the problem is on this line below; VS-Code is helpfully giving "twoSum" a red squigly line... 
     print(twoSum[1, 2, 3], 5)
@@ -1063,5 +1063,10 @@ def twoSum(arr, S):
     #//!_Reason: Time spent testing challenge 1, all in vain! :-(
 
 #//!-------Challenge-Number Divider--------//
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 60: Aug 16, 2022
+#//!_Challenges waived today; reason: for physical-mental recuperation.
 
 #//*----------------------Day Divider------------------------//

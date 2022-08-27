@@ -1479,26 +1479,37 @@
 //!-------Challenge-Number Divider--------//
 //!_Challenge 3: Min, Max, Avg; attempted from memory and/or previous practice. [Sigh; "here goes nothing!" :-( ] 
 //!_Note 1: Honor system in use here; test attempted unsuccessfully! :-(
-//!_Note 2: To be reviewed tomorrow. 
+//!_Note 2: To be reviewed later. 
 
-function minMaxAvg(arr){
-    min = Infinity;
-    max = -Infinity;
-    sum = 0;
-    for (let i = 0; i < arr.length; i++){
-        sum = sum + arr[i];
-    }
-    if (min < arr[i]){
-        min = arr[i];
-    } else {
-    if (max > arr[i]){
-        max = arr[i];
-    }
-    //?_Regardless of whatever else is wrong with this poor code-block, I know that the next two lines are probably NOT supposed to be together--i.e., within the same curly-bracket sub-block, so to speak (sorry; amateur-buoy here has to often make up his own technical vocabulary!).
-    let avg = sum / arr.length;
-    return ("Hello! Please note: your min is " + min + ", your max is " + max + ", and finally, your average is " + avg + ". Have an awesome day, dear human! :-)"); 
-    }
-}
-console.log(minMaxAvg([1, 2, 3, 4, 5]));
+// function minMaxAvg(arr){
+//     min = Infinity;
+//     max = -Infinity;
+//     sum = 0;
+//     for (let i = 0; i < arr.length; i++){
+//         sum = sum + arr[i];
+//     }
+//     if (min < arr[i]){
+//         min = arr[i];
+//     } else {
+//     if (max > arr[i]){
+//         max = arr[i];
+//     }
+//     //?_Regardless of whatever else is wrong with this poor code-block, I know that the next two lines are probably NOT supposed to be together--i.e., within the same curly-bracket sub-block, so to speak (sorry; amateur-buoy here has to often make up his own technical vocabulary!).
+//     let avg = sum / arr.length;
+//     return ("Hello! Please note: your min is " + min + ", your max is " + max + ", and finally, your average is " + avg + ". Have an awesome day, dear human! :-)"); 
+//     }
+// }
+// console.log(minMaxAvg([1, 2, 3, 4, 5]));
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 69: Aug 25, 2022
+//!_Please note: these days' challenges are in Py file. "'See you' next time! :-)"
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 70: Aug 26, 2022
+
+//!_Please note: Challenges waived today; reason: for physical-mental recuperation.
 
 //*----------------------Day Divider------------------------//
