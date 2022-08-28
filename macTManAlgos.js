@@ -1513,3 +1513,8 @@
 //!_Please note: Challenges waived today; reason: for physical-mental recuperation.
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 71: Aug 27, 2022
+//!_Please note: today's (ordinary--i.e., non-ML/Other) challenges are waived. Instead, I am practicing via a Python mini-project. The "Day's Special (?!):" K-Nearest Neighbor! :-)
+
+//*----------------------Day Divider------------------------//
