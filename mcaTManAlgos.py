@@ -1090,3 +1090,8 @@ class TreeNode(object):
 #//!_Missing: Days 72 to 77, Aug 28 to Sept 2 (2022).
 
 #//*----------------------Day Divider------------------------//
+
+#//*_Day 78: Sept 3, 2022
+#//!_Please note: today's challenges are in JS file. "'See you' tomorrow, or 'next time'! :-)"
+
+#//*----------------------Day Divider------------------------//
