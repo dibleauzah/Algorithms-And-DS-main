@@ -1518,3 +1518,43 @@
 //!_Please note: today's (ordinary--i.e., non-ML/Other) challenges are waived. Instead, I am practicing via a Python mini-project. The "Day's Special (?!):" K-Nearest Neighbor! :-)
 
 //*----------------------Day Divider------------------------//
+
+//!_Missing: Days 72 to 77, Aug 28 to Sept 2 (2022).
+
+//*----------------------Day Divider------------------------//
+//*_Day 78: Sept 3, 2022
+
+//!_Challenge 1: Print to 55.
+
+// function justPrintNowAndeleAndele(){
+//     for (let i = 1; i < 55; i++){
+//         console.log(i);
+// }
+// //?_Not Tested
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: Print Odds, 1 to 50
+
+// function printOdds1To50(){
+//     for (let i = 1; i <= 50; i += 2){
+//         console.log(i);
+//     }
+// }
+// printOdds1To50();
+// //?_Tested successfully! Yay! :-)
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 3: Iterate through given array backwards, printing each element from last to first.
+
+// arr = [1, 2, 7, 9, 34]
+
+// function printBackwards(){
+//     for (let i = arr.length; i >= 0; i--){
+//         console.log(arr[i]);
+//     }
+// }
+// printBackwards(arr);
+// //?_Again, tested successfully (!); and again, yay! :-)
+
+//*----------------------Day Divider------------------------//
+
