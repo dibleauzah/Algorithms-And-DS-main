@@ -1558,3 +1558,7 @@
 
 //*----------------------Day Divider------------------------//
 
+//*_Day 79: Sept 4, 2022
+//!_Please note: Today's challenges were handwritten; please refer to relevant folder for details.
+
+//*----------------------Day Divider------------------------//
