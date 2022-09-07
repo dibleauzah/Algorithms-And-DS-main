@@ -1562,3 +1562,48 @@
 //!_Please note: Today's challenges were handwritten; please refer to relevant folder for details.
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 80: Sept 5, 2022
+//!_Missing
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 81: Sept 6, 2022
+
+//!_Given an integer x, find it’s square root. If x is not a perfect square, then return floor(√x).
+//?_Testing Suspended
+
+// function countSquares(x){
+//     var sqr = parseInt(Math.sqrt(x));
+//     var result = parseInt(sqr);
+//     return result;
+// }
+//     var x = 9;
+//         document.write(countSquares(x));
+
+// console.log(countSquares(5));
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: Find GCD or HCF of 2 numbers
+
+// function gcd(a, b){
+//     if (a == 0)
+//     return b;
+//     if (b == 0)
+//     return a;
+
+//     if (a == b)
+//         return a;
+    
+//     if (a > b)
+//         return gcd(a - b, b);
+//     return gcd(a, b - a);
+// }
+
+// //?_Test apparently successful; result" "GCD of 98 and 56 is 14"
+
+// let a = 98, b = 56;
+
+// console.log("GCD of " + a + " and " + b + " is " + gcd(a, b));
+
+//*----------------------Day Divider------------------------//

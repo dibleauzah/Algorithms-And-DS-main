@@ -1100,3 +1100,13 @@ class TreeNode(object):
 #//!_Please note: Today's challenges were handwritten; please refer to relevant folder for details.
 
 #//*----------------------Day Divider------------------------//
+
+#//*_Day 80: Sept 5, 2022
+#//!_Missing
+
+#//*----------------------Day Divider------------------------//
+
+#//*_Day 81: Sept 6, 2022
+#//!_Please note: today's challenges are in JS file. "'See you' tomorrow, or 'next time'! :-)"
+
+#//*----------------------Day Divider------------------------//
