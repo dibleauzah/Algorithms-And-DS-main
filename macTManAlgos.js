@@ -1607,3 +1607,8 @@
 // console.log("GCD of " + a + " and " + b + " is " + gcd(a, b));
 
 //*----------------------Day Divider------------------------//
+
+//*_Day 82: Sept 7, 2022
+//!_Please note: these days' challenges are in Py file. "'See you' next time! :-)"
+
+//*----------------------Day Divider------------------------//
