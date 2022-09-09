@@ -1160,3 +1160,20 @@ class TreeNode(object):
 #     return overlap
 
 #//*----------------------Day Divider------------------------//
+#//*_Day 83: Sep 8, 2022
+
+# def sumNested(arr):
+#     result = 0 
+#     for i in range(0, len(arr)):
+#         if type (arr[i]) is not int:
+#             result += sumNested(arr[i])
+#         else:
+#             result += arr[i]
+#     return result
+# sumNested([1, 2, 3])
+
+
+# print("Sanity Check [!], for crying out loud...")
+# #!_Sanity check successful...
+
+#//*----------------------Day Divider------------------------//

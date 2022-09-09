@@ -1612,3 +1612,16 @@
 //!_Please note: these days' challenges are in Py file. "'See you' next time! :-)"
 
 //*----------------------Day Divider------------------------//
+//*_Day 83: Sept 8, 2022
+
+function clockAngle(hour, min){
+    var h = 0.5 * (60 * hour + min);
+    var m = 6 * min;
+    var angle = Math.abs(h - m);
+    return (angle > 180) ? 360 - angle: angle;
+}
+
+console.log(clockAngle(4, 30));
+//?_Test Successful
+
+//*----------------------Day Divider------------------------//
