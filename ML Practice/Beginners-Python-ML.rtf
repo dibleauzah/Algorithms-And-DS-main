@@ -1,0 +1,412 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica-BoldOblique;\f2\fswiss\fcharset0 Helvetica;
+\f3\fswiss\fcharset0 Helvetica-Oblique;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25100\viewh15740\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc\partightenfactor0
+
+\f0\b\fs36 \cf0 \ul \ulc0 Machine Learning Algorithms For Beginners with Code Examples in Python\
+
+\f1\i \ulnone Best machine learning algorithms for beginners with coding samples in Python. Launch the coding samples with Google Colab\
+
+\f0\i0 Author(s): Pratik Shukla, Roberto Iriondo, Sherwin Chen\
+\ul \
+Last updated April 14, 2021
+\f2\b0 \ulnone \
+Source:\
+https://pub.towardsai.net/machine-learning-algorithms-for-beginners-with-python-code-examples-ml-19c6afd60daa \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Machine learning (ML) is rapidly changing the world, from diverse types of applications and research pursued in industry and academia. Machine learning is affecting every part of our daily lives. From voice assistants using NLP and machine learning to make appointments, check our calendar, and play music, to programmatic advertisements \'97 that are so accurate that they can predict what we will need before we even think of it.\
+\
+More often than not, the complexity of the scientific field of machine learning can be overwhelming, making keeping up with \'93what is important\'94 a very challenging task. However, to make sure that we provide a learning path to those who seek to learn machine learning, but are new to these concepts. In this article, we look at the most critical basic algorithms that hopefully make your machine learning journey less challenging.\
+\
+Any suggestions or feedback is crucial to continue to improve. Please let us know in the comments if you have any.\
+\
+
+\f0\b Index
+\f2\b0 \
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}Introduction to Machine Learning.\
+{\listtext	\uc0\u8226 	}Major Machine Learning Algorithms.\
+{\listtext	\uc0\u8226 	}Supervised vs. Unsupervised Learning.\
+{\listtext	\uc0\u8226 	}Linear Regression.\
+{\listtext	\uc0\u8226 	}Multivariable Linear Regression.\
+{\listtext	\uc0\u8226 	}Polynomial Regression.\
+{\listtext	\uc0\u8226 	}Exponential Regression.\
+{\listtext	\uc0\u8226 	}Sinusoidal Regression.\
+{\listtext	\uc0\u8226 	}Logarithmic Regression.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Machine learning behaves similarly to the growth of a child. As a child grows, her experience E in performing task T increases, which results in higher performance measure (P).\
+\
+For instance, we give a \'93shape sorting block\'94 toy to a child. (Now we all know that in this toy, we have different shapes and shape holes). In this case, our task T is to find an appropriate shape hole for a shape. Afterward, the child observes the shape and tries to fit it in a shaped hole. Let us say that this toy has three shapes: a circle, a triangle, and a square. In her first attempt at finding a shaped hole, her performance measure(P) is 1/3, which means that the child found 1 out of 3 correct shape holes.\
+\
+Second, the child tries it another time and notices that she is a little experienced in this task. Considering the experience gained (E), the child tries this task another time, and when measuring the performance(P), it turns out to be 2/3. After repeating this task (T) 100 times, the baby now figured out which shape goes into which shape hole.\
+\
+So her experience (E) increased, her performance(P) also increased, and then we notice that as the number of attempts at this toy increases. The performance also increases, which results in higher accuracy.\
+\
+Such execution is similar to machine learning. What a machine does is, it takes a task (T), executes it, and measures its performance (P). Now a machine has a large number of data, so as it processes that data, its experience (E) increases over time, resulting in a higher performance measure (P). So after going through all the data, our machine learning model\'92s accuracy increases, which means that the predictions made by our model will be very accurate.\
+\
+Another definition of machine learning by Arthur Samuel:\
+\
+Machine Learning is the subfield of computer science that gives \'93computers the ability to learn without being explicitly programmed.\'94 ~ Arthur Samuel [2]\
+\
+Let us try to understand this definition: It states \'93learn without being explicitly programmed\'94 \'97 which means that we are not going to teach the computer with a specific set of rules, but instead, what we are going to do is feed the computer with enough data and give it time to learn from it, by making its own mistakes and improve upon those. For example, We did not teach the child how to fit in the shapes, but by performing the same task several times, the child learned to fit the shapes in the toy by herself.\
+\
+Therefore, we can say that we did not explicitly teach the child how to fit the shapes. We do the same thing with machines. We give it enough data to work on and feed it with the information we want from it. So it processes the data and predicts the data accurately.\
+\
+Why do we need machine learning?\
+For instance, we have a set of images of cats and dogs. What we want to do is classify them into a group of cats and dogs. To do that we need to find out different animal features, such as:\
+\
+How many eyes does each animal have?\
+What is the eye color of each animal?\
+What is the height of each animal?\
+What is the weight of each animal?\
+What does each animal generally eat?\
+We form a vector on each of these questions\'92 answers. Next, we apply a set of rules such as:\
+\
+If height > 1 feet and weight > 15 lbs, then it could be a cat.\
+\
+Now, we have to make such a set of rules for every data point. Furthermore, we place a decision tree of if, else if, else statements and check whether it falls into one of the categories.\
+\
+Let us assume that the result of this experiment was not fruitful as it misclassified many of the animals, which gives us an excellent opportunity to use machine learning.\
+\
+What machine learning does is process the data with different kinds of algorithms and tells us which feature is more important to determine whether it is a cat or a dog. So instead of applying many sets of rules, we can simplify it based on two or three features, and as a result, it gives us a higher accuracy. The previous method was not generalized enough to make predictions.\
+\
+Machine learning models helps us in many tasks, such as:\
+\
+Object Recognition\
+Summarization\
+Prediction\
+Classification\
+Clustering\
+Recommender systems\
+And others\
+What is a machine learning model?\
+A machine learning model is a question/answering system that takes care of processing machine-learning related tasks. Think of it as an algorithm system that represents data when solving problems. The methods we will tackle below are beneficial for industry-related purposes to tackle business problems.\
+\
+For instance, let us imagine that we are working on Google Adwords\'92 ML system, and our task is to implementing an ML algorithm to convey a particular demographic or area using data. Such a task aims to go from using data to gather valuable insights to improve business outcomes.\
+\
+
+\f0\b Major Machine Learning Algorithms:\
+\
+1. Regression (Prediction)
+\f2\b0 \
+We use regression algorithms for predicting continuous values.\
+\
+Regression algorithms:\
+\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	\uc0\u8226 	}Linear Regression\
+{\listtext	\uc0\u8226 	}Polynomial Regression\
+{\listtext	\uc0\u8226 	}Exponential Regression\
+{\listtext	\uc0\u8226 	}Logistic Regression\
+{\listtext	\uc0\u8226 	}Logarithmic Regression\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+
+\f0\b 2. Classification\
+
+\f2\b0 We use classification algorithms for predicting a set of items\'92 class or category.\
+\
+Classification algorithms:\
+\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
+\ls3\ilvl0\cf0 {\listtext	\uc0\u8226 	}K-Nearest Neighbors\
+{\listtext	\uc0\u8226 	}Decision Trees\
+{\listtext	\uc0\u8226 	}Random Forest\
+{\listtext	\uc0\u8226 	}Support Vector Machine\
+{\listtext	\uc0\u8226 	}Naive Bayes\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+
+\f0\b 3. Clustering\
+
+\f2\b0 We use clustering algorithms for summarization or to structure data.\
+\
+Clustering algorithms:\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\uc0\u8226 	}K-means\
+{\listtext	\uc0\u8226 	}DBSCAN\
+{\listtext	\uc0\u8226 	}Mean Shift\
+{\listtext	\uc0\u8226 	}Hierarchical\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+
+\f0\b 4. Association\
+
+\f2\b0 We use association algorithms for associating co-occurring items or events.\
+Association algorithms:\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
+\ls5\ilvl0\cf0 {\listtext	\uc0\u8226 	}Apriori\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+
+\f0\b 5. Anomaly Detection\
+
+\f2\b0 We use anomaly detection for discovering abnormal activities and unusual cases like fraud detection.\
+\
+
+\f0\b 6. Sequence Pattern Mining\
+
+\f2\b0 We use sequential pattern mining for predicting the next data events between data examples in a sequence.\
+\
+
+\f0\b 7. Dimensionality Reduction\
+
+\f2\b0 We use dimensionality reduction for reducing the size of data to extract only useful features from a dataset.\
+\
+
+\f0\b 8. Recommendation Systems\
+
+\f2\b0 We use recommenders algorithms to build recommendation engines.\
+\
+Examples:\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
+\ls6\ilvl0\cf0 {\listtext	\uc0\u8226 	}Netflix recommendation system.\
+{\listtext	\uc0\u8226 	}A book recommendation system.\
+{\listtext	\uc0\u8226 	}A product recommendation system on Amazon.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Nowadays, we hear many buzz words like artificial intelligence, machine learning, deep learning, and others.\
+\
+Artificial Intelligence (AI):\
+Artificial intelligence (AI), as defined by Professor Andrew Moore, is the science and engineering of making computers behave in ways that, until recently, we thought required human intelligence [4].\
+\
+These include:\
+\
+Computer Vision\
+Language Processing\
+Creativity\
+Summarization\
+Machine Learning (ML):\
+As defined by Professor Tom Mitchell, machine learning refers to a scientific branch of AI, which focuses on the study of computer algorithms that allow computer programs to automatically improve through experience [3].\
+\
+These include:\
+\
+Classification\
+Neural Network\
+Clustering\
+Deep Learning:\
+Deep learning is a subset of machine learning in which layered neural networks, combined with high computing power and large datasets, can create powerful machine learning models. [3]\
+\
+Why do we prefer Python to implement machine learning algorithms?\
+Python is a popular and general-purpose programming language. We can write machine learning algorithms using Python, and it works well. The reason why Python is so popular among data scientists is that Python has a diverse variety of modules and libraries already implemented that make our life more comfortable.\
+\
+Let us have a brief look at some exciting Python libraries.\
+\
+Numpy: It is a math library to work with n-dimensional arrays in Python. It enables us to do computations effectively and efficiently.\
+Scipy: It is a collection of numerical algorithms and domain-specific tool-box, including signal processing, optimization, statistics, and much more. Scipy is a functional library for scientific and high-performance computations.\
+Matplotlib: It is a trendy plotting package that provides 2D plotting as well as 3D plotting.\
+Scikit-learn: It is a free machine learning library for python programming language. It has most of the classification, regression, and clustering algorithms, and works with Python numerical libraries such as Numpy, Scipy.\
+Machine learning algorithms classify into two groups :\
+\
+Supervised Learning algorithms\
+Unsupervised Learning algorithms\
+I. Supervised Learning Algorithms:\
+Goal: Predict class or value label.\
+\
+Supervised learning is a branch of machine learning(perhaps it is the mainstream of machine/deep learning for now) related to inferring a function from labeled training data. Training data consists of a set of *(input, target)* pairs, where the input could be a vector of features, and the target instructs what we desire for the function to output. Depending on the type of the *target*, we can roughly divide supervised learning into two categories: classification and regression. Classification involves categorical targets; examples ranging from some simple cases, such as image classification, to some advanced topics, such as machine translations and image caption. Regression involves continuous targets. Its applications include stock prediction, image masking, and others- which all fall in this category.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 To understand what supervised learning is, we will use an example. For instance, we give a child 100 stuffed animals in which there are ten animals of each kind like ten lions, ten monkeys, ten elephants, and others. Next, we teach the kid to recognize the different types of animals based on different characteristics (features) of an animal. Such as if its color is orange, then it might be a lion. If it is a big animal with a trunk, then it may be an elephant.\
+\
+We teach the kid how to differentiate animals, this can be an example of supervised learning. Now when we give the kid different animals, he should be able to classify them into an appropriate animal group.\
+\
+For the sake of this example, we notice that 8/10 of his classifications were correct. So we can say that the kid has done a pretty good job. The same applies to computers. We provide them with thousands of data points with its actual labeled values (Labeled data is classified data into different groups along with its feature values). Then it learns from its different characteristics in its training period. After the training period is over, we can use our trained model to make predictions. Keep in mind that we already fed the machine with labeled data, so its prediction algorithm is based on supervised learning. In short, we can say that the predictions by this example are based on labeled data.\
+\
+Example of supervised learning algorithms :\
+\
+Linear Regression\
+Logistic Regression\
+K-Nearest Neighbors\
+Decision Tree\
+Random Forest\
+Support Vector Machine\
+II. Unsupervised Learning:\
+Goal: Determine data patterns/groupings.\
+\
+In contrast to supervised learning. Unsupervised learning infers from unlabeled data, a function that describes hidden structures in data.\
+\
+Perhaps the most basic type of unsupervised learning is dimension reduction methods, such as PCA, t-SNE, while PCA is generally used in data preprocessing, and t-SNE usually used in data visualization.\
+\
+A more advanced branch is clustering, which explores the hidden patterns in data and then makes predictions on them; examples include K-mean clustering, Gaussian mixture models, hidden Markov models, and others.\
+\
+Along with the renaissance of deep learning, unsupervised learning gains more and more attention because it frees us from manually labeling data. In light of deep learning, we consider two kinds of unsupervised learning: representation learning and generative models.\
+\
+Representation learning aims to distill a high-level representative feature that is useful for some downstream tasks, while generative models intend to reproduce the input data from some hidden parameters.\
+\
+Unsupervised learning works as it sounds. In this type of algorithms, we do not have labeled data. So the machine has to process the input data and try to make conclusions about the output. For example, remember the kid whom we gave a shape toy? In this case, he would learn from its own mistakes to find the perfect shape hole for different shapes.\
+\
+But the catch is that we are not feeding the child by teaching the methods to fit the shapes (for machine learning purposes called labeled data). However, the child learns from the toy\'92s different characteristics and tries to make conclusions about them. In short, the predictions are based on unlabeled data.\
+\
+Examples of unsupervised learning algorithms:\
+\
+Dimension Reduction\
+Density Estimation\
+Market Basket Analysis\
+Generative adversarial networks (GANs)\
+Clustering\
+\
+For this article, we will use a few types of regression algorithms with coding samples in Python.\
+\
+1. Linear Regression:\
+\pard\pardeftab720\qc\partightenfactor0
+\cf0 [Missing Picture of Regression Graph]\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+Linear regression is a statistical approach that models the relationship between input features and output. The input features are called the independent variables, and the output is called a dependent variable. Our goal here is to predict the value of the output based on the input features by multiplying it with its optimal coefficients.\
+\
+Some real-life examples of linear regression :\
+(1) To predict sales of products.\
+\
+(2) To predict economic growth.\
+\
+(3) To predict petroleum prices.\
+\
+(4) To predict the emission of a new car.\
+\
+(5) Impact of GPA on college admissions.\
+\
+There are two types of linear regression :\
+\
+Simple Linear Regression\
+Multivariable Linear Regression\
+1.1 Simple Linear Regression:\
+In simple linear regression, we predict the output/dependent variable based on only one input feature. The simple linear regression is given by:\
+\
+\pard\pardeftab720\qc\partightenfactor0
+\cf0 [Missing Picture of Simple Linear Regression Formula]\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+Step by step implementation in Python:\
+\
+a. Import required libraries:\
+\
+Since we are going to use various libraries for calculations, we need to import them\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\qc\partightenfactor0
+\cf0 [Add Code Snippets Here; Refer to Article Link/PDF Above]\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+b. Read the CSV file:\
+\
+We check the first five rows of our dataset. In this case, we are using a vehicle model dataset \'97 please check out the dataset on Softlayer IBM.\
+\
+\pard\pardeftab720\qc\partightenfactor0
+\cf0 [Add Code Snippets Here; Refer to Article Link/PDF Above]\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+c. Select the features we want to consider in predicting values:\
+\
+Here our goal is to predict the value of \'93co2 emissions\'94 from the value of \'93engine size\'94 in our dataset.\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\qc\partightenfactor0
+\cf0 [Add Code Snippets Here; Refer to Article Link/PDF Above]\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+d. Plot the data:\
+\
+We can visualize our data on a scatter plot.\
+\
+\pard\pardeftab720\qc\partightenfactor0
+\cf0 [Add Code Snippets Here; Refer to Article Link/PDF Above]\
+\
+[Add Missing Parts Here\'85]\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+[Add Code Snippets Here; Refer to Article Link/PDF Above]\
+\
+Putting it all together:\
+\
+
+\f3\i # Import required libraries:\
+import pandas as pd\
+import numpy as np\
+import matplotlib.pyplot as plt\
+from sklearn import linear_model\
+\
+# Read the CSV file :\
+data = pd.read_csv(\'93Fuel.csv\'94)\
+data.head()\
+\
+# Let\'92s select some features to explore more :\
+data = data[[\'93ENGINESIZE\'94,\'94CO2EMISSIONS\'94]]\
+\
+# ENGINESIZE vs CO2EMISSIONS:\
+plt.scatter(data[\'93ENGINESIZE\'94] , data[\'93CO2EMISSIONS\'94] , color=\'94blue\'94)\
+plt.xlabel(\'93ENGINESIZE\'94)\
+plt.ylabel(\'93CO2EMISSIONS\'94)\
+plt.show()\
+\
+# Generating training and testing data from our data:\
+# We are using 80% data for training.\
+train = data[:(int((len(data)*0.8)))]\
+test = data[(int((len(data)*0.8))):]\
+\
+# Modeling:\
+# Using sklearn package to model data :\
+regr = linear_model.LinearRegression()\
+train_x = np.array(train[[\'93ENGINESIZE\'94]])\
+train_y = np.array(train[[\'93CO2EMISSIONS\'94]])\
+regr.fit(train_x,train_y)\
+\
+# The coefficients:\
+print (\'93coefficients : \'93,regr.coef_) #Slope\
+print (\'93Intercept : \'93,regr.intercept_) #Intercept\
+\
+# Plotting the regression line:\
+plt.scatter(train[\'93ENGINESIZE\'94], train[\'93CO2EMISSIONS\'94], color=\'92blue\'92)\
+plt.plot(train_x, regr.coef_*train_x + regr.intercept_, \'91-r\'92)\
+plt.xlabel(\'93Engine size\'94)\
+plt.ylabel(\'93Emission\'94)\
+\
+# Predicting values:\
+# Function for predicting future values :\
+def get_regression_predictions(input_features,intercept,slope):\
+ predicted_values = input_features*slope + intercept\
+ return predicted_values\
+\
+# Predicting emission for future car:\
+my_engine_size = 3.5\
+estimatd_emission = get_regression_predictions(my_engine_size,regr.intercept_[0],regr.coef_[0][0])\
+print (\'93Estimated Emission :\'94,estimatd_emission)\
+\
+# Checking various accuracy:\
+from sklearn.metrics import r2_score\
+test_x = np.array(test[[\'91ENGINESIZE\'92]])\
+test_y = np.array(test[[\'91CO2EMISSIONS\'92]])\
+test_y_ = regr.predict(test_x)\
+\
+print(\'93Mean absolute error: %.2f\'94 % np.mean(np.absolute(test_y_ \'97 test_y)))\
+print(\'93Mean sum of squares (MSE): %.2f\'94 % np.mean((test_y_ \'97 test_y) ** 2))\
+print(\'93R2-score: %.2f\'94 % r2_score(test_y_ , test_y) )
+\f2\i0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\qc\partightenfactor0
+
+\f1\i\b \cf0 \ul \ulc0 Transcription End-Point; Sep 10: \
+\pard\pardeftab720\partightenfactor0
+
+\f0\i0 \cf0 \ulnone Launch it on Google Colab:\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f2\b0 \cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+}
