@@ -1631,3 +1631,79 @@
 //?_Link: https://colab.research.google.com/drive/1jYfFSmkmRA7TvexRgR0_Ni7g6R5UrfRh?usp=sharing 
 
 //*----------------------Day Divider------------------------//
+
+//!_Missing: Days 85 to 89: Sep 12 to Sep 17.
+
+//*----------------------Day Divider------------------------//
+//*_Day 90: Sep 17 [Late--Pushed to GH technically on Sep 18! :-( ]
+
+//!_Challenge 1: Print to 55.
+
+// function print1To55(){
+//     for (let i = 0; i <= 55; i++){
+//         console.log("Ola! :-) Your magic number is " + i);
+//     }
+// }
+// print1To55();
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: FizzBuzz--Part 1
+//?_My attempt at my own solution; test result: FAILED! :-(
+
+// function fizzBuzz(n){
+//     let result = [];
+// for (let i = 0; i <= n; i++){
+//         let add = " ";
+//     if (i % 3 === 0){
+//         add += "Fizz";
+//     }
+//     if (i % 5 === 0){
+//         add += "Buzz"
+//     }
+//     if (add === " "){
+//         result.push(i);
+//        }
+//        else { result.push (add); }
+//     }
+//     return add;
+// }
+// console.log(fizzBuzz(100));
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: FizzBuzz--Part 2
+//?_Another attempt, trying to use the book's answer, but copying and pasting some code, and trying to clean it up instead of typing it all out. Result:
+
+/*
+[
+  ' ',         ' ',         ' Fizz',     ' ',
+  ' Buzz',     ' Fizz',     ' ',         ' ',
+  ' Fizz',     ' Buzz',     ' ',         ' Fizz',
+  ' ',         ' ',         ' FizzBuzz', ' ',
+  ' ',         ' Fizz',     ' ',         ' Buzz',
+  ' Fizz',     ' ',         ' ',         ' Fizz',
+  ' Buzz',     ' ',         ' Fizz',     ' ',
+  ' ',         ' FizzBuzz', ' ',         ' ',
+  ' Fizz',     ' ',         ' Buzz',     ' Fizz',
+  ' ',         ' ',         ' Fizz',     ' Buzz',
+  ' ',         ' Fizz',     ' ',         ' ',
+  ' FizzBuzz', ' ',         ' ',         ' Fizz',
+  ' ',         ' Buzz'
+]
+*/
+//?_LOL! 
+//?_Gotta love coding, I tell you...(!)...
+
+// function fizzBuzz(n) { 
+//     let result = [];
+//     for (let i = 1; i <= n; i++) {
+//         let add = ' ';
+//     if (i % 3 === 0) { add += 'Fizz'; }
+//     if (i % 5 === 0) { add += 'Buzz'; }
+//     if (add === '') { result.push(i); } 
+//     else { result.push(add); }
+//     }
+//     return result; 
+// }
+
+// console.log(fizzBuzz(50));
+
