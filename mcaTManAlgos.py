@@ -1217,16 +1217,16 @@ class TreeNode(object):
 #//!-------Challenge-Number Divider--------//
 #//!_Challenge 2: Is N a prime number
 
-import math
-def isPrime(n):
-    if n < 2:
-        return False
-    for i in range(2, int(math.ceil(math.sqrt(n)))):
-        if n % i == 0:
-            return False
-    return True 
+# import math
+# def isPrime(n):
+#     if n < 2:
+#         return False
+#     for i in range(2, int(math.ceil(math.sqrt(n)))):
+#         if n % i == 0:
+#             return False
+#     return True 
 
-print (isPrime((5)))
+# print (isPrime((5)))
 
 #//!_Ending at 2 challenges for today, for time-scarcity reasons.
 
