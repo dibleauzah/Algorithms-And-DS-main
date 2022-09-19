@@ -1671,8 +1671,22 @@
 
 //!-------Challenge-Number Divider--------//
 //!_Challenge 2: FizzBuzz--Part 2
-//?_Another attempt, trying to use the book's answer, but copying and pasting some code, and trying to clean it up instead of typing it all out. Result:
 
+function fizzBuzz(n) { 
+    let result = [];
+    for (let i = 1; i <= n; i++) {
+        let add = ' ';
+    if (i % 3 == 0) { add += 'Fizz'; }
+    if (i % 5 == 0) { add += 'Buzz'; }
+    if (add == '') { result.push(i); } 
+    else { result.push(add); }
+    }
+    return result; 
+}
+
+console.log(fizzBuzz(50));
+
+//?_Another attempt, trying to use the book's answer, but copying and pasting some code, and trying to clean it up instead of typing it all out. Result:
 /*
 [
   ' ',         ' ',         ' Fizz',     ' ',
@@ -1693,17 +1707,4 @@
 //?_LOL! 
 //?_Gotta love coding, I tell you...(!)...
 
-// function fizzBuzz(n) { 
-//     let result = [];
-//     for (let i = 1; i <= n; i++) {
-//         let add = ' ';
-//     if (i % 3 === 0) { add += 'Fizz'; }
-//     if (i % 5 === 0) { add += 'Buzz'; }
-//     if (add === '') { result.push(i); } 
-//     else { result.push(add); }
-//     }
-//     return result; 
-// }
-
-// console.log(fizzBuzz(50));
-
+//*----------------------Day Divider------------------------//

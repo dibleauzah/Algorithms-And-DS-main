@@ -1192,3 +1192,42 @@ class TreeNode(object):
 #//!_Please note: today's challenges are in JS file. "'See you' tomorrow, or 'next time'! :-)"
 
 #//*----------------------Day Divider------------------------//
+
+#//*_Day 91: Sept 18, 2022
+
+#//!_No.--1-FizzBuzz Again! [ :-( ]
+#//?_Test successful! Yay! :-)) 
+#//?_Result: [1, 2, ' Fizz', 4, ' Buzz', ' Fizz', 7, 8, ' Fizz', ' Buzz']
+
+# def fizzBuzz (n):
+#     result = []
+#     for i in range (1, n + 1):
+#         add = ' '
+#         if i % 3 == 0:
+#             add += 'Fizz'
+#         if i % 5 == 0:
+#             add += 'Buzz'
+#         if add == ' ':
+#             result.append(i)
+#         else:
+#             result.append(add)
+#     return result
+# print(fizzBuzz(10))
+
+#//!-------Challenge-Number Divider--------//
+#//!_Challenge 2: Is N a prime number
+
+import math
+def isPrime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(math.ceil(math.sqrt(n)))):
+        if n % i == 0:
+            return False
+    return True 
+
+print (isPrime((5)))
+
+#//!_Ending at 2 challenges for today, for time-scarcity reasons.
+
+#//*----------------------Day Divider------------------------//
