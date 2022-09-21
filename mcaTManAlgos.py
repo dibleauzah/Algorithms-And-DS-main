@@ -1231,3 +1231,19 @@ class TreeNode(object):
 #//!_Ending at 2 challenges for today, for time-scarcity reasons.
 
 #//*----------------------Day Divider------------------------//
+#//*_Day 93: Sept 20, 2022
+
+#//!_No.-1: Calculate sum of nested array:
+#?_Test: Unsuccessful! :-(
+
+# def sumNested(arr):
+#     result = 0
+#     for i in range(0, len(arr)):
+#         if type (arr[i]) is not int:
+#             result += sumNested(arr[i])
+#         else:
+#             result  += arr[i]
+#     return result
+# print(sumNested[1, 2, 3, [2], [2, 4]]);
+
+#//*----------------------Day Divider------------------------//
