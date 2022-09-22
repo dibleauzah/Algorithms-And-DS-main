@@ -1708,13 +1708,42 @@
 //?_Gotta love coding, I tell you...(!)...
 
 //*----------------------Day Divider------------------------//
-
 //*_Day 91: Sept 18, 2022
 //!_Please note: these days' challenges are in Py file. "'See you' next time! :-)"
-
 //*----------------------Day Divider------------------------//
-
 //*_Day 93: Sept 20, 2022
 //!_Please note: these days' challenges are in Py file. "'See you' next time! :-)"
+//*----------------------Day Divider------------------------//
+
+//*_Day 94: Sept 21, 2022
+//!_Just one challenge today.
+
+//!_Challenge 1 of 1: Min, Max, And Avg:
+
+//?_Test SUCCESSFUL! Yyiiippeee! :-) Had a couple of bugs at first, caused by misplaced code--as in, in the wrong curly-brace-demarcated block, and a "NaN" caused by "i <= arr.length", instead of [the correct/current] "i < arr.length".
+
+//?_This--folkx, feels very, very good indeed. Finally mastering this basic algo. I know--I know; might seem like a silly accomplishment to most. But to "Turtle-man" here; heavenly! :-)
+
+// function minMaxAvg(arr){
+//   var min = Infinity;
+//   var max = -Infinity;
+//   var sum = 0;
+
+//   for (let i = 0; i < arr.length; i++){
+//     sum = sum + arr[i];
+//     if (arr[i] < min){
+//       min = arr[i];
+//     } else {
+//     if (arr[i] > max){
+//       max = arr[i];
+//     }
+//     var avg = sum / arr.length;   
+//   }
+// }
+//?_console.log ("Hi! Please note that your min is " + min + " and your max is " + max + " and finally, your avg is " + avg + ". Bye-bye! :-)" );
+
+// }
+
+// minMaxAvg([1, 2, 3]);
 
 //*----------------------Day Divider------------------------//
