@@ -1719,16 +1719,12 @@
 //!_Just one challenge today.
 
 //!_Challenge 1 of 1: Min, Max, And Avg:
-
 //?_Test SUCCESSFUL! Yyiiippeee! :-) Had a couple of bugs at first, caused by misplaced code--as in, in the wrong curly-brace-demarcated block, and a "NaN" caused by "i <= arr.length", instead of [the correct/current] "i < arr.length".
-
 //?_This--folkx, feels very, very good indeed. Finally mastering this basic algo. I know--I know; might seem like a silly accomplishment to most. But to "Turtle-man" here; heavenly! :-)
-
 // function minMaxAvg(arr){
 //   var min = Infinity;
 //   var max = -Infinity;
 //   var sum = 0;
-
 //   for (let i = 0; i < arr.length; i++){
 //     sum = sum + arr[i];
 //     if (arr[i] < min){
@@ -1741,9 +1737,11 @@
 //   }
 // }
 //?_console.log ("Hi! Please note that your min is " + min + " and your max is " + max + " and finally, your avg is " + avg + ". Bye-bye! :-)" );
-
 // }
-
 // minMaxAvg([1, 2, 3]);
+//*----------------------Day Divider------------------------//
+
+//*_Day 101: Sep 28, 2022
+//!_Please note: today's challenges are in JS file. "'See you' tomorrow, or 'next time'! :-)"
 
 //*----------------------Day Divider------------------------//

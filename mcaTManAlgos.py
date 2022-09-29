@@ -1247,8 +1247,54 @@ class TreeNode(object):
 # print(sumNested[1, 2, 3, [2], [2, 4]]);
 
 #//*----------------------Day Divider------------------------//
-
 #//*_Day 94: Sep 21, 2022
 #//!_Please note: today's challenges are in JS file. "'See you' tomorrow, or 'next time'! :-)"
+
+#//*----------------------Day Divider------------------------//
+#//*_Day 101: Sep 28, 2022
+
+#//!_Challenge 1: "Is N a prime number?"
+#//!_Test Successful--Yippee!
+# import math
+# def isPrime(n):
+#     if n < 2:
+#         return False
+#     for i in range(2, int(math.ceil(math.sqrt(n)))):
+#         if n % i == 0:
+#             return False
+#     return True
+# print(isPrime(4))
+
+#//!_Challenge 2: "Count words with at least 3 continuous vowels."
+#//!_Test successful again. Whoo-hoo!
+# import re
+# def threeVowels(string):
+#     arr = string.split(' ')
+#     count = 0
+#     for word in arr:
+#         if re.search(r'[aeiou]{3,}', word) != None:
+#             count += 1
+#     return count
+# print(threeVowels("Ba baaa black sheep, have you any wooool?"))
+
+#//!_Challenge 3: "Switching light bulbs problem."
+#//!_Note 1, written before writing the code: I won't be surprised if the test for this problem doesn't work!
+#//!_Note 2: Interesting; the way the solution is written originally retunrs an array of [True, True, True ... 100]; in other words, it (more or less) works. But when I try to tweak the solution to use a different number for "i", tough/no luck!
+# def lightBulbs(N):
+#     lightBulbs = [False for i in range(0, N)]
+#     # for i in range(1, N + 1):
+#         # w = 1
+#         # k = w * i
+#         # while k <= N:
+#         #     lightBulbs[k - 1] = not lightBulbs[k - 1]
+#         #     w += 1
+#         #     k = w * i
+#     for i in range(1, N + 1):
+#         w = 2
+#         k = w * i 
+#         while k <= N:
+#             lightBulbs[k - 2] = not lightBulbs[k - 2]
+#         return lightBulbs
+# print (lightBulbs(100))
 
 #//*----------------------Day Divider------------------------//
