@@ -1746,4 +1746,50 @@
 
 //*----------------------Day Divider------------------------//
 
-console.log("Testing...");
+//*_10/21/2022
+// console.log("Testing...");
+
+//*----------------------Day Divider------------------------//
+
+//*_Day 124: Oct 22, 2022
+//*_"A toast," to new beginnings, and/or never giving up.
+
+//!_Challenge 1: Print to 55.
+
+// function justPrint(i){
+//   for(let i = 1; i <= 255; i++){
+//   console.log (i);
+//   }
+// }
+//  justPrint();
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 2: Nested Arrays.
+
+// function sumNested(arr){
+//   let result = 0;
+
+// for (let i = 0; i < arr.length; i++){
+//   if (typeof arr[i] !== 'number'){
+//     result += sumNested(arr[i]);
+//   } else {
+//     result += arr[i];
+//   }
+//   }
+//   return result;
+// }
+
+// console.log(sumNested([1, 1, 3, [3, 4, [8]], [5]]));
+
+//!-------Challenge-Number Divider--------//
+//!_Challenge 3: Print Odds (1 to 257)
+
+// function printOdds(){
+//   for (let i = 1; i <= 257; i += 2){
+//     console.log (i);
+//   }
+// }
+
+// printOdds();
+
+//*----------------------Day Divider------------------------//
