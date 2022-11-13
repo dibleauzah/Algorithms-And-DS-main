@@ -50,3 +50,23 @@
 //     console.log(max);
 // }
 // printMax([1, 2, 3, 34, 3, 5, 5, 77]);
+
+//*_________________Nov 10, 2022________________*//
+//!_#-6: Analyze an array's values and print the average.
+
+// function findAvg(arr){
+//     var sum = 0;
+//     for (var i = 0; i < arr.length; i++){
+//         sum = sum + arr[i];
+//     }
+//     var avg = sum / arr.length;
+//     console.log(avg);
+// }
+
+// findAvg([1, 2, 3, 4, 5]);
+
+//*-------------------------------------------//
+
+// console.log("Just Testing...")
+
+//*-------------------------------------------//

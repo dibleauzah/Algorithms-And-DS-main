@@ -1,9 +1,9 @@
 
-#//*_________________Nov 8, 2022________________*//
-#//*_Note: Testing suspended for problems 2 to 6.
+# *_________________Nov 8, 2022________________*//
+# *_Note: Testing suspended for problems 2 to 6.
 
-#!_No.-1: FizzBuzz
-#!_Test Unsuccessful.
+# !_No.-1: FizzBuzz
+# !_Test Unsuccessful.
 # def fizzBuzz(n):
 #     result = []
 #     for i in range(1, n - 1):
@@ -19,12 +19,12 @@
 #     return result
 # fizzBuzz(100);
 
-#//*_________________Section Divider________________*//
+# //*_________________Section Divider________________*//
 
-#!_Sanity-Check! :-(
+# !_Sanity-Check! :-(
 
-#!_Program make a simple calculator;
-#!_Source (Copied & Pasted): https://www.programiz.com/python-programming/examples/calculator
+# !_Program make a simple calculator;
+# !_Source (Copied & Pasted): https://www.programiz.com/python-programming/examples/calculator
 
 # This function adds two numbers
 # def add(x, y):
@@ -66,10 +66,10 @@
 #     else:
 #         print("Invalid Input")
 
-#!_Sanity-Check Result: The above code executes successfully. This means that I am somehow typing up the wrong solution, or messing it up somehow. IOW/e.g.: 1)--Perhaps the author(s) of the tutorial (from the CoderByte Algorithms book) made a mistake; or 2)--I am not calling the function the right way.
+# !_Sanity-Check Result: The above code executes successfully. This means that I am somehow typing up the wrong solution, or messing it up somehow. IOW/e.g.: 1)--Perhaps the author(s) of the tutorial (from the CoderByte Algorithms book) made a mistake; or 2)--I am not calling the function the right way.
 
-#//*_________________Section Divider________________*//
-#!_No.-2: Two-Sum Problem
+# //*_________________Section Divider________________*//
+# !_No.-2: Two-Sum Problem
 
 # def twoSum(arr, S):
 #     hashTable = {}
@@ -79,8 +79,8 @@
 #         return True
 #     hashTable[arr[i]] = True
 #     return False
-#//*_________________Section Divider________________*//
-#!_No.-3: Calculate sum of nested array.
+# //*_________________Section Divider________________*//
+# !_No.-3: Calculate sum of nested array.
 
 # def sumNested(arr):
 #     result = 0
@@ -90,8 +90,8 @@
 #         else:
 #             result += sumNested(arr[i])
 #     return result;
-#//*_________________Section Divider________________*//
-#!_No.-4: Calculate angle on a clock.
+# //*_________________Section Divider________________*//
+# !_No.-4: Calculate angle on a clock.
 
 # def clockAngle(hour, mins):
 #     h = 0.5 * (60 * hour + mins)
@@ -101,8 +101,8 @@
 #         return 360 - angle
 #     else:
 #         return angle
-#//*_________________Section Divider________________*//
-#!_No.-5: Determine if N is a prime number.
+# //*_________________Section Divider________________*//
+# !_No.-5: Determine if N is a prime number.
 
 # import math
 # def isPrime(n):
@@ -113,10 +113,10 @@
 #             return False
 #     return True;
 
-#//*_________________Section Divider________________*//
-#!_No.-6: Implement map and filter.
+# //*_________________Section Divider________________*//
+# !_No.-6: Implement map and filter.
 
-#?_Part 1; Map:
+# ?_Part 1; Map:
 
 # def map(arr, fn):
 #     result = []
@@ -132,7 +132,7 @@
 # map([1, 2, 3, 4], square) #?_Should return => [1, 4, 9, 16]
 # map([1, 2, 3, 4], addZeros) #?_Should return => [100, 200, 300, 400]
 
-#?_Part 2; Filter:
+# ?_Part 2; Filter:
 
 # def filter(arr, fn):
 #     result = []
@@ -146,4 +146,7 @@
 #     isPositive = lambda x: x > 0
 #     filter([-2, 4, 5, 8, -44, -6], isPositive); #?_ Should return => [4, 5, 8]
 
-#//*_________________Section Divider________________*//
+# *_//_________________Section Divider________________*//
+
+print("Just testing...")
+#?_Test Unsuccessful! :-(
