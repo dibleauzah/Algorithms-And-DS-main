@@ -19,7 +19,7 @@
 #     return result
 # fizzBuzz(100);
 
-# //*_________________Section Divider________________*//
+# //*_________________Section/Number/Challenge Divider________________*//
 
 # !_Sanity-Check! :-(
 
@@ -68,7 +68,7 @@
 
 # !_Sanity-Check Result: The above code executes successfully. This means that I am somehow typing up the wrong solution, or messing it up somehow. IOW/e.g.: 1)--Perhaps the author(s) of the tutorial (from the CoderByte Algorithms book) made a mistake; or 2)--I am not calling the function the right way.
 
-# //*_________________Section Divider________________*//
+# //*_________________Section/Number/Challenge Divider________________*//
 # !_No.-2: Two-Sum Problem
 
 # def twoSum(arr, S):
@@ -79,7 +79,7 @@
 #         return True
 #     hashTable[arr[i]] = True
 #     return False
-# //*_________________Section Divider________________*//
+# //*_________________Section/Number/Challenge Divider________________*//
 # !_No.-3: Calculate sum of nested array.
 
 # def sumNested(arr):
@@ -90,7 +90,7 @@
 #         else:
 #             result += sumNested(arr[i])
 #     return result;
-# //*_________________Section Divider________________*//
+# //*_________________Section/Number/Challenge Divider________________*//
 # !_No.-4: Calculate angle on a clock.
 
 # def clockAngle(hour, mins):
@@ -101,7 +101,7 @@
 #         return 360 - angle
 #     else:
 #         return angle
-# //*_________________Section Divider________________*//
+# //*_________________Section/Number/Challenge Divider________________*//
 # !_No.-5: Determine if N is a prime number.
 
 # import math
@@ -113,7 +113,7 @@
 #             return False
 #     return True;
 
-# //*_________________Section Divider________________*//
+# //*_________________Section/Number/Challenge Divider________________*//
 # !_No.-6: Implement map and filter.
 
 # ?_Part 1; Map:
@@ -146,7 +146,65 @@
 #     isPositive = lambda x: x > 0
 #     filter([-2, 4, 5, 8, -44, -6], isPositive); #?_ Should return => [4, 5, 8]
 
-# *_//_________________Section Divider________________*//
+# //*_________________Section/Number/Challenge Divider________________*//
 
-print("Just testing...")
-#?_Test Unsuccessful! :-(
+#print("Just testing...")
+#?_Test Successful!
+
+#//?____________________Day Divider_____________________*//
+
+#//*____________________Nov 15, 2022____________________*//
+
+#!_#-7:_Remove characters from array-string.
+#!_Test successful.
+
+# def removeChars(arr, string):
+#     hashTable = {}
+#     for c in arr:
+#         hashTable[c] = True
+#     result = ''
+#     for c in string:
+#         if c not in hashTable:
+#             result += c
+#     return result
+# print (removeChars(['h', 'e', 'w', 'o'], "hello world"));
+
+# //*_________________Section/Number/Challenge Divider________________*//
+
+#!_#-8:_Check if valid number of parentheses.
+#!_Test successful.
+
+# def matchingParens(string):
+#     counter = 0
+#     for c in string:
+#         if c == '(':
+#             counter += 1
+#         elif c == ')':
+#             counter -= 1
+#     if counter == 0:
+#         return True
+#     else:
+#         return False
+# print(matchingParens("()()())(())))(()))))))((("));
+
+# //*_________________Section/Number/Challenge Divider________________*//
+
+#!_#-9:_First non-repeating character: Given a string, return the first character that is unique in the entire string. E.g.: for "hello henry," the 1st non-repeating character is "o".
+
+# def firstNonRepeater(string):
+# #!_Test partially successful.
+
+#     hashTable = {}
+#     for c in string:
+#         if c not in hashTable:
+#             hashTable[c] = 1
+#         else:
+#             hashTable[c] += 1
+#     for c in string:
+#         if hashTable[c] == 1:
+#             return c
+#     return -1
+# print (firstNonRepeater("abda xa dabra"));
+
+# //*_________________Section/Number/Challenge Divider________________*//
+

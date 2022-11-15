@@ -67,6 +67,64 @@
 
 //*-------------------------------------------//
 
-// console.log("Just Testing...")
+//?_console.log("Just Testing...")
 
 //*-------------------------------------------//
+
+//*_________________Nov 15, 2022______________*//
+
+//!_#-7: Create an array with all odd integers between 1 and 255 (inclusive).
+
+// function returnOdds1To255(){
+//     var newArr = [];
+//     for (let i = 1; i <= 255; i += 2){
+//         newArr.push(i);
+//     }
+//     return newArr;
+// }
+
+// console.log(returnOdds1To255());
+
+//*-------------------------------------------//*
+//!_#-8: Square each value in a given array, returning the array, returning the array with changed--i.e., squared--values.
+
+// function squareArrValues(arr){
+//     for (var i = 0; i < arr.length; i++){
+//         var numSquared = arr[i] * arr[i];
+//         arr[i] = numSquared;
+//     }
+//     return arr;
+// }
+// console.log(squareArrValues([1, 2, 3, 4, 5]));
+
+//*-------------------------------------------//*
+//!_#-9: Given an array and a value Y, count and print the number of array values greater than Y.
+
+// function greaterThanY(arr, y){
+//     var numCount = 0;
+//     var values = [];
+//     for (var i = 0; i < arr.length; i++){
+//         if (arr[i] > y){
+//         numCount = numCount + 1;
+//         values.push(arr[i]);
+//         }
+//     }
+//     console.log(values);
+// }
+// greaterThanY([1, -2, 3, 0, -5, 5, 7], 3);
+
+//*-------------------------------------------//*
+//!_#-10: Zero out the negative numbers. Create an array, and return as 0 any values less than 0.
+
+// function returnZeros(arr){
+//     var zero = 0;
+//     for (var i = 0; i < arr.length; i++){
+//         if (arr[i] < zero){
+//             arr[i] = zero;
+//         }
+//     }
+//     return arr;
+// }
+// console.log(returnZeros([1, 2, 0, -3, 9, 10, -45], 3));
+
+//*-------------------------------------------//*
