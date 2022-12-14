@@ -1344,3 +1344,28 @@ class TreeNode(object):
 #     return lightBulbs
 
 #//*----------------------Day Divider------------------------//
+
+#//!_Missing: Days 126 to 162: Oct 24 to Dec 13.
+
+#//*----------------------Day Divider------------------------//
+#//*_Day 163: Dec 14, 2022
+
+#//!_Challenge 1 of 1: Is N a Prime?:
+
+import math
+
+def isPrime(n):
+
+    if n < 2:
+        return False
+    
+    for i in range(2, int(math.ceil(math.sqrt(n)))):
+
+        if n % i == 0:
+            return False
+    return True 
+
+
+print(isPrime(101))
+
+#//*----------------------Day Divider------------------------//
