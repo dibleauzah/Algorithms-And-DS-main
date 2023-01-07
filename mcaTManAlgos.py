@@ -1352,20 +1352,21 @@ class TreeNode(object):
 
 #//!_Challenge 1 of 1: Is N a Prime?:
 
-import math
+# import math
 
-def isPrime(n):
+# def isPrime(n):
 
-    if n < 2:
-        return False
+#     if n < 2:
+#         return False
     
-    for i in range(2, int(math.ceil(math.sqrt(n)))):
+#     for i in range(2, int(math.ceil(math.sqrt(n)))):
 
-        if n % i == 0:
-            return False
-    return True 
+#         if n % i == 0:
+#             return False
+#     return True 
 
-
-print(isPrime(101))
+# print(isPrime(101))
 
 #//*----------------------Day Divider------------------------//
+
+print("Testing--123...")
