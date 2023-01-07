@@ -1799,3 +1799,31 @@
 
 //*----------------------Day Divider------------------------//
 
+//*_Day 1 of "N"--2023: Jan 6, 2023
+
+//!_Challenge 1, minMaxAvg;
+//!_Purpose: Warm up before MERN course tutorial.
+//!_Post-test notes: Test successful.
+
+// function minMaxAvg (arr){
+//   var min = Infinity;
+//   var max = -Infinity;
+//   var sum = 0;
+//   for (let i = 0; i < arr.length; i++){
+//         sum = sum + arr[i];
+//         if (arr[i] < min){
+//           min = arr[i];
+//       } else {
+//       if (arr[i] > max)
+//         if (arr[i] > max){
+//           max = arr[i];
+//         }
+//       }
+//   } 
+//   var avg = sum / arr.length;
+//   return ("Hi! Please note; your min is " + min + " and your max is " + max + " and last (but not least), your average is " + avg + " bye-bye! :-)");      
+// }
+
+// console.log(minMaxAvg([1, 2, 3, 4, 5]));
+
+//*----------------------Day Divider------------------------//
