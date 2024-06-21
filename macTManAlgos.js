@@ -1827,3 +1827,14 @@
 // console.log(minMaxAvg([1, 2, 3, 4, 5]));
 
 //*----------------------Day Divider------------------------//
+
+// function sadnessOflife(){
+//   while(alive){
+//     eat();
+//     sleep();
+//     code();
+//     repeat();
+//   }
+// }
+
+// console.log(sadnessOflife);
